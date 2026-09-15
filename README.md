@@ -1,5 +1,7 @@
 # MyGame
 
+[![CI](https://github.com/kimsfghjk/new-repo/actions/workflows/ci.yml/badge.svg)](https://github.com/kimsfghjk/new-repo/actions/workflows/ci.yml)
+
 Godot **4.7.2 stable (mono / .NET)** 게임 프로젝트. 팀 공동 개발용 저장소입니다.
 
 ## 처음 받았다면

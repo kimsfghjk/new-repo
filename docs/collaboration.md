@@ -16,7 +16,7 @@
 ## 1. 저장소 받기 (최초 1회)
 
 ```powershell
-git clone <REMOTE_URL> MyGame
+git clone https://github.com/kimsfghjk/new-repo.git MyGame
 cd MyGame
 git lfs install     # 훅 + 필터 등록 (필수)
 git lfs pull        # LFS 자산 실제 파일로 내려받기
@@ -166,3 +166,31 @@ GitHub Actions 워크플로도 포함돼 있습니다: **`.github/workflows/ci.y
 - MIT 라이선스라 재배포 문제가 없습니다(원본 `LICENSE` 동봉).
 - 갱신은 릴리스 zip 교체 + 버전 고정 커밋(`chore: bump godot-ai to 4.x.y`)으로만 합니다. **손으로 수정하지 않습니다.**
 - 대안: `.gitignore` 에 넣고 각자 설치 → 버전 드리프트 위험이 큽니다.
+
+## 부록 C. 원격 저장소 운영 (GitHub)
+
+저장소: <https://github.com/kimsfghjk/new-repo> (기본 브랜치 `main`)
+
+### 팀원 초대
+
+저장소가 공개(public)여도 **push 권한은 없습니다.** GitHub → 저장소 → **Settings → Collaborators** 에서 초대하면 초대받은 계정이 바로 push할 수 있습니다.
+조직(Organization)에서 운영한다면 팀 단위 권한을 쓰는 편이 관리가 쉽습니다.
+
+### main 브랜치 보호 (권장)
+
+Settings → **Branches → Add branch protection rule** → `main`:
+
+- **Require a pull request before merging** (직접 push 금지)
+- **Require status checks to pass** → `Headless import + script check` 선택 (CI가 초록이어야 머지 가능)
+- **Require branches to be up to date before merging** → 씬 충돌을 머지 전에 드러냅니다
+
+### 푸시 인증
+
+Windows에서는 Git Credential Manager가 첫 인증을 브라우저로 처리하고 이후 토큰을 캐시합니다(현재 이 PC는 이미 인증돼 있어 바로 push됩니다).
+SSH를 쓰려면 키를 만들어 GitHub에 등록하고 `git remote set-url origin git@github.com:kimsfghjk/new-repo.git` 로 바꿉니다.
+
+### 공개 여부 / LFS 비용
+
+- 상용 게임이라면 **private 저장소**를 권장합니다(현재 public). 비공개 전환은 Settings → General → Danger Zone.
+- GitHub LFS 무료 한도는 **저장 1GB / 월 트래픽 1GB** 입니다. 아트·사운드가 커지면 초과 과금되므로, 규모가 커질 때는 GitLab self-hosted나 외부 아티팩트 스토리지를 검토하세요. 추가 용량은 Settings → Billing에서 구매합니다.
+- `export_credentials.cfg`(키스토어/서명 비밀번호)는 `.gitignore`로 차단돼 있고 CI도 검사합니다. **절대 커밋하지 마세요.**
