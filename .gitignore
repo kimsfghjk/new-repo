@@ -1,0 +1,66 @@
+# =============================================================================
+# Godot 4 project .gitignore — MyGame
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Godot editor cache / generated data (rebuilt on first open; never commit)
+# -----------------------------------------------------------------------------
+.godot/
+/android/
+
+# -----------------------------------------------------------------------------
+# Local export state and secrets
+# Godot 4.4+ keeps keystore / codesign credentials out of export_presets.cfg,
+# in export_credentials.cfg. That file must never be committed.
+# -----------------------------------------------------------------------------
+export_credentials.cfg
+export_presets.cfg.bak
+
+# -----------------------------------------------------------------------------
+# Build / packaged output
+# -----------------------------------------------------------------------------
+build/
+dist/
+*.pck
+*.log
+
+# -----------------------------------------------------------------------------
+# C# / .NET (Godot .NET build) — compiler output only
+# -----------------------------------------------------------------------------
+.mono/
+bin/
+obj/
+*.user
+*.suo
+mono_crash.*.json
+
+# -----------------------------------------------------------------------------
+# IDE / OS junk
+# -----------------------------------------------------------------------------
+.vs/
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+*.tmp
+
+# -----------------------------------------------------------------------------
+# Cline CLI: MCP servers are registered globally
+# (%USERPROFILE%\.cline\data\settings\cline_mcp_settings.json).
+# A project-scoped .cline/mcp.json is never read by cline 3.0.61 (verified with
+# an existing file and --cwd pointing at this project), so keep it out of the repo.
+# Shared AI rules live in .clinerules/ and AGENTS.md instead.
+# -----------------------------------------------------------------------------
+.cline/mcp.json
+
+# =============================================================================
+# Deliberately NOT ignored — these must stay in version control:
+#
+#   *.uid             Godot 4.4+ resource identity sidecars. Removing these
+#                     breaks scene/script/resource references for everyone.
+#   *.import          per-asset import settings (needed for identical imports)
+#   project.godot     project settings, autoloads, enabled plugins
+#   export_presets.cfg shared export presets (no secrets since 4.4)
+#   addons/           pinned third-party plugins, incl. addons/godot_ai (Godot AI 4.1.0)
+#   tests/            GDScript test suites run through test_run
+# =============================================================================

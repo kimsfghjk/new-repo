@@ -1,0 +1,75 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+env:
+  GODOT_VERSION: 4.7.2
+
+jobs:
+  headless-check:
+    name: Headless import + script check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (Git LFS assets included)
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Install Linux editor runtime libraries
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends \
+            libfontconfig1 libx11-6 libxcursor1 libxext6 libxinerama1 libxrandr2 libxi6 libgl1 libegl1 unzip
+
+      - name: Download Godot ${{ env.GODOT_VERSION }} (mono build)
+        run: |
+          set -euo pipefail
+          ENGINE_DIR="$RUNNER_TEMP/godot"
+          mkdir -p "$ENGINE_DIR"
+          curl -fsSL -o "$RUNNER_TEMP/godot.zip" \
+            "https://github.com/godotengine/godot-builds/releases/download/${GODOT_VERSION}-stable/Godot_v${GODOT_VERSION}-stable_mono_linux_x86_64.zip"
+          unzip -q "$RUNNER_TEMP/godot.zip" -d "$ENGINE_DIR"
+          BIN="$(find "$ENGINE_DIR" -type f -name 'Godot_v*_mono_linux*' | head -n1)"
+          test -n "$BIN"
+          chmod +x "$BIN"
+          echo "GODOT_BIN=$BIN" >> "$GITHUB_ENV"
+          "$BIN" --version
+
+      # The Godot AI plugin disables its MCP server in headless launches, so the
+      # check below never competes with an editor (or CI) for ports 8000/9500.
+      - name: Headless import + script load check
+        run: |
+          set -euo pipefail
+          set +e
+          "$GODOT_BIN" --headless --path "$GITHUB_WORKSPACE" --editor --quit > "$RUNNER_TEMP/godot.log" 2>&1
+          STATUS=$?
+          set -e
+          cat "$RUNNER_TEMP/godot.log"
+          if [ "$STATUS" -ne 0 ]; then
+            echo "::error::Godot exited with code $STATUS"
+            exit 1
+          fi
+          if grep -E 'SCRIPT ERROR|Parse Error|ERROR:|Failed to load|Cannot open file|Unable to load' "$RUNNER_TEMP/godot.log" \
+              | grep -v 'MCP | plugin disabled in headless mode'; then
+            echo "::error::Godot reported load/parse errors (see log above)"
+            exit 1
+          fi
+          echo "PASS - project imports and all scripts parse cleanly."
+
+      - name: Guard against forbidden tracked files
+        run: |
+          set -euo pipefail
+          if git ls-files | grep -E '^(\.godot/|export_credentials\.cfg)'; then
+            echo "::error::.godot/ or export_credentials.cfg is tracked - see .gitignore"
+            exit 1
+          fi
+          echo "PASS - no editor cache or export credentials in the index."
