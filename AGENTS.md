@@ -13,6 +13,7 @@ Cline(`AGENTS.md` + `.clinerules/`), Cursor, Codex, Claude Code 등이 공통으
 | 주 언어 | GDScript (C# 도입은 팀 합의 후) |
 | MCP 플러그인 | `addons/godot_ai` = **Godot AI 4.1.0** (버전 고정, 손으로 수정 금지) |
 | 테스트 | `res://tests/test_*.gd` (`McpTestSuite`), MCP `test_run`으로 실행 |
+| 에셋 생성(선택) | `assets/**` 재생성 시에만 Python 3 + Pillow 필요 (`docs/assets.md`) |
 
 - 엔진 버전 업그레이드는 **단독 PR**로만 합니다. 업그레이드하면 `.tscn`/`.tres`/`.uid`가 전부 재저장되어 수천 줄 diff가 나므로 다른 변경과 섞으면 리뷰가 불가능합니다.
 - 팀원 전원이 같은 4.7.x를 씁니다. 다른 4.7.x로 열어 저장하면 씬 포맷이 흔들립니다.
@@ -24,19 +25,20 @@ res://
   scenes/     # .tscn — 기능 단위로 잘게 분할 (한 씬 = 한 오너)
   scripts/    # .gd — 파일명 snake_case, class_name은 PascalCase
   assets/
-    art/      # 이미지/텍스처 (LFS)
-    audio/    # 사운드/음악 (LFS)
-    fonts/    # 폰트 (LFS)
-    models/   # 3D 모델 (LFS)
+	art/      # 이미지/텍스처 (LFS) — easyrtp/ 는 생성물
+	audio/    # 사운드/음악 (LFS) — easyrtp/ 는 생성물
+	fonts/    # 폰트 (LFS)
+	models/   # 3D 모델 (LFS)
   tests/      # test_*.gd — 하위 폴더는 스캔되지 않음
   addons/     # Godot 에디터 플러그인 (수정 금지, 버전 고정 커밋)
   third_party/ # 플러그인 형태가 아닌 외부 코드/프레임워크 (수정 금지)
-  tools/      # 팀 공용 스크립트 (PowerShell)
+  tools/      # 팀 공용 스크립트 (PowerShell) — easyrtp_prepare.py 는 예외적으로 Python
   docs/       # 문서
 ```
 
 새 최상위 폴더를 추가하기 전에 팀에 공유합니다.
 - **`addons/`·`third_party/`는 손으로 고치지 않습니다.** 갱신은 원본을 통째로 교체하고 `third_party/README.md`의 핀 표를 갱신하는 방식으로만 합니다.
+- **`assets/art/easyrtp/**`·`assets/audio/easyrtp/**`·`assets/easyrtp.manifest.json`은 생성물입니다.** 손으로 고치지 않고 `powershell -File tools/prepare-easyrtp.ps1`로 재생성합니다(파이프라인 설명: `docs/assets.md`). 커밋된 자산이 매니페스트와 일치하는지는 `-Check`로 확인합니다.
 - `third_party/gbm2k`는 원본 절대 경로(`res://Scripts/` 등)를 `res://third_party/gbm2k/...`로 재작성해 둔 상태입니다. 다시 받을 때도 같은 재작성이 필요합니다(`third_party/README.md` 4절).
 - 부득이하게 내부를 고쳐야 한다면 "우리가 포크했다"는 뜻이므로 PR 본문에 사유를 적습니다.
 
@@ -63,6 +65,7 @@ res://
 - 위치: `res://tests/test_*.gd`, `extends McpTestSuite`, `func suite_name()`, 동기 `func test_*()`만.
 - 실행: 에디터에 연결된 MCP의 `test_run` (단일 실행 300초 예산, 테스트당 ~20초 이내 권장).
 - 로직 변경 PR은 테스트를 동반합니다. 최소 "씬이 인스턴스화된다 / 핵심 수치가 유지된다"를 검증합니다.
+- 현재 스위트: `project`(프로젝트 설정·플러그인·메인 씬), `assets`(EasyRTP 자산과 GBM2K `coll_type` 계약).
 
 ## 6. AI 에이전트(MCP) 사용 규칙
 

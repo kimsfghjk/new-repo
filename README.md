@@ -16,23 +16,27 @@ Godot **4.7.2 stable (mono / .NET)** 게임 프로젝트. 팀 공동 개발용 �
 |---|---|
 | 사전 검사 (헤드리스 임포트 + 스크립트 파싱) | `powershell -ExecutionPolicy Bypass -File .\tools\check-project.ps1` |
 | Cline MCP 등록 / 갱신 | `powershell -ExecutionPolicy Bypass -File .\tools\setup-cline-mcp.ps1` |
-| 테스트 실행 | 에디터 연결 후 MCP 도구 `test_run` (스위트: `res://tests/`) |
+| 커밋 + 푸시 한 번에 | `powershell -ExecutionPolicy Bypass -File .\tools\publish.ps1 "feat: ..."` |
+| 에셋 재생성 / 드리프트 검사 (필요할 때만) | `powershell -ExecutionPolicy Bypass -File .\tools\prepare-easyrtp.ps1 [-Check]` |
+| 테스트 실행 | 에디터 연결 후 MCP 도구 `test_run` (스위트: `project`, `assets`) |
 
 ## 구조
 
 ```text
 scenes/                 .tscn — 기능 단위로 분할 (한 씬 = 한 오너)
 scripts/                .gd  — snake_case 파일명
-assets/{art,audio,fonts,models}/   Git LFS 자산
+assets/{art,audio,fonts,models}/   Git LFS 자산 (art/easyrtp, audio/easyrtp 는 생성물)
+third_party/gbm2k/      RPG Maker 2003식 그리드 이동 프레임워크 (MIT, 수정 금지)
 tests/                  test_*.gd — McpTestSuite 상속
 addons/godot_ai/        Godot AI 4.1.0 (고정 — 손으로 수정 금지)
 tools/                  팀 공용 스크립트
-docs/                   협업/운영 문서
+docs/                   협업/운영 문서 — 에셋 파이프라인은 docs/assets.md
+CREDITS.md              포함한 외부 리소스와 라이선스 (배포물에 포함)
 ```
 
 ## 절대 하지 말 것
 
 - `.godot/`, `export_credentials.cfg`, 빌드 산출물 커밋
-- `addons/godot_ai/**` 수동 수정 (갱신은 리스 교체 + 버전 커밋으로만)
+- `addons/godot_ai/**` 수동 수정 (갱신은 릴리스 교체 + 버전 커밋으로만)
 - `*.uid` 삭제 / 대소문자만 다른 파일명 생성
 - 엔진 버전 업그레이드와 기능 변경을 한 PR에 섞기

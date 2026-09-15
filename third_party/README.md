@@ -43,10 +43,16 @@ res://Graphics/   -> res://third_party/gbm2k/Graphics/
 `.uid` 파일을 그대로 보존했기 때문에 `uid://` 기반 참조는 영향받지 않습니다.
 원본 README는 `UPSTREAM_README.md`로 함께 보관했습니다.
 
-> ⚠️ **에셋 라이선스 주의**: GBM2K 저장소는 MIT지만 `Graphics/`의 스프라이트는 원작자 표기에 따르면
-> **OpenRTP**(RPG Maker 2000/2003 RTP 무료 대체 리소스, Jason Perry)입니다. 프레임워크 코드는 자유롭게
-> 쓸 수 있지만 **아트를 상용 배포에 그대로 쓰기 전에 OpenRTP 라이선스를 직접 확인**하고, 가능하면 자체/구매
-> 아트로 교체하세요. RPG Maker RTP 원본 리소스는 RPG Maker 제품 외 사용이 허가되지 않으므로 절대 쓰지 마세요.
+> ✅ **에셋 라이선스 확인 완료 (2026-09)**: GBM2K 저장소는 MIT이고, `Graphics/`의 스프라이트는 원작자 표기상
+> **OpenRTP**(= EasyRPG RTP의 칩셋·캐릭터)입니다. 픽셀 대조로 정체를 확인했고, 업스트림
+> [EasyRPG RTP `AUTHORS.md`](https://github.com/EasyRPG/RTP/blob/993d88cbc78c658d348bbfa74a3b424d393d27e5/AUTHORS.md)
+> 기준으로 `ChipSet/Dungeon.png`는 **JasonPerry [CC0]**, `CharSet/Template.png`는 **Community [CC0]** 입니다.
+> 즉 **CC0(퍼블릭 도메인)** 이라 상용 배포에 제약이 없습니다. 자세한 근거·저자 목록은 루트
+> [`CREDITS.md`](../CREDITS.md)를 보세요.
+>
+> ⚠️ 단, **RPG Maker 원본 RTP 리소스는 RPG Maker 제품 외 사용이 허가되지 않습니다.** 설치 폴더의
+> RTP를 복사하지 마세요(근거 조항은 `CREDITS.md` 2절). 우리 게임용 그래픽은 `assets/art/easyrtp/`의
+> EasyRPG RTP 번들을 쓰고, 그 파이프라인은 [`docs/assets.md`](../docs/assets.md)에 있습니다.
 
 ## 3. 사용 예 (씬에서 가져다 쓰기)
 
