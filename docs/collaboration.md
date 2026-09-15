@@ -173,8 +173,37 @@ GitHub Actions 워크플로도 포함돼 있습니다: **`.github/workflows/ci.y
 
 ### 팀원 초대
 
-저장소가 공개(public)여도 **push 권한은 없습니다.** GitHub → 저장소 → **Settings → Collaborators** 에서 초대하면 초대받은 계정이 바로 push할 수 있습니다.
-조직(Organization)에서 운영한다면 팀 단위 권한을 쓰는 편이 관리가 쉽습니다.
+저장소가 공개(public)여도 **push 권한은 없습니다.** 초대를 수락한 계정만 push할 수 있습니다.
+
+**권한 등급** (초대 시 선택)
+
+| 등급 | 용도 |
+|---|---|
+| `pull` (Read) | 클론/읽기만. 아트 담당, 외부 검수자 |
+| `triage` | 이슈·PR 정리. 코드 push 불가 |
+| `push` (Write) | **개발자 기본값.** 브랜치 push + PR 생성 |
+| `maintain` | push + 브랜치/이슈 관리. 팀 리드 |
+| `admin` | 저장소 설정·초대 권한. 최소 인원만 |
+
+**방법 1 — 웹 UI**: 저장소 → **Settings → Collaborators and teams → Add people** → GitHub 사용자명(또는 이메일) 입력 → 권한 선택 → 초대.
+초대받은 사람은 **메일에서 수락**해야 반영됩니다.
+
+**방법 2 — 스크립트(여러 명 / 반복 작업)**:
+
+```powershell
+# 기본값 push 로 여러 명 초대
+powershell -ExecutionPolicy Bypass -File .\tools\invite-collaborator.ps1 -Username alice,bob
+
+# 팀 리드는 maintain, 실제 호출 없이 확인만 하려면 -DryRun
+powershell -ExecutionPolicy Bypass -File .\tools\invite-collaborator.ps1 -Username lead -Permission maintain -DryRun
+```
+
+- 저장소는 `origin` 리모트에서 자동 판별합니다.
+- 토큰은 `$env:GITHUB_TOKEN`(repo 스코프) → 없으면 **Git Credential Manager에 캐시된 토큰**(`git push`가 쓰는 것)을 사용합니다. 토큰은 화면에 출력되지 않고 디스크에도 저장되지 않습니다.
+- 실행 계정에 해당 저장소 **admin 권한**이 필요합니다.
+- 초대 목록 확인: `https://github.com/<owner>/<repo>/settings/access`
+
+팀이 3인 이상이면 조직(Organization) 저장소로 옮기는 것을 권장합니다. 팀 단위 권한, SSO, 중앙 LFS 결제가 가능해 관리가 쉽습니다.
 
 ### main 브랜치 보호 (권장)
 
@@ -184,6 +213,9 @@ Settings → **Branches → Add branch protection rule** → `main`:
 - **Require status checks to pass** → `Headless import + script check` 선택 (CI가 초록이어야 머지 가능)
 - **Require branches to be up to date before merging** → 씬 충돌을 머지 전에 드러냅니다
 
+> 플랜 제약(GitHub 공식 문서): 보호 규칙은 **public 저장소라면 GitHub Free에서도** 사용할 수 있고, **private 저장소는 GitHub Pro / Team 이상**이 필요합니다.
+> 이 저장소를 private로 전환할 계획이면 플랜도 함께 확인하세요. (Actions는 public 무료, private은 Free 플랜 기준 월 2,000분)
+
 ### 푸시 인증
 
 Windows에서는 Git Credential Manager가 첫 인증을 브라우저로 처리하고 이후 토큰을 캐시합니다(현재 이 PC는 이미 인증돼 있어 바로 push됩니다).
@@ -191,6 +223,7 @@ SSH를 쓰려면 키를 만들어 GitHub에 등록하고 `git remote set-url ori
 
 ### 공개 여부 / LFS 비용
 
-- 상용 게임이라면 **private 저장소**를 권장합니다(현재 public). 비공개 전환은 Settings → General → Danger Zone.
+- 상용 게임이라면 **private 저장소**를 권장합니다(현재 public). 비공개 전환은 Settings → General → Danger Zone. 단, private로 바꾸면 브랜치 보호 규칙에 GitHub Pro 이상이 필요합니다.
 - GitHub LFS 무료 한도는 **저장 1GB / 월 트래픽 1GB** 입니다. 아트·사운드가 커지면 초과 과금되므로, 규모가 커질 때는 GitLab self-hosted나 외부 아티팩트 스토리지를 검토하세요. 추가 용량은 Settings → Billing에서 구매합니다.
+- Actions 사용량: public 저장소는 무료, private은 Free 플랜 기준 월 2,000분입니다. 현재 CI는 1회 약 1~2분(주로 Godot 107MB 다운로드)을 씁니다.
 - `export_credentials.cfg`(키스토어/서명 비밀번호)는 `.gitignore`로 차단돼 있고 CI도 검사합니다. **절대 커밋하지 마세요.**
