@@ -25,6 +25,9 @@
 *.csproj    text eol=lf
 *.sln       text eol=lf
 
+# Python (tools/easyrtp_prepare.py)
+*.py        text eol=lf
+
 # Windows tooling keeps CRLF
 *.ps1       text eol=crlf
 *.bat       text eol=crlf

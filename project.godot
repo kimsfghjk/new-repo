@@ -27,3 +27,7 @@ project/assembly_name="MyGame"
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/godot_ai/plugin.cfg", "res://addons/dialogue_manager/plugin.cfg", "res://addons/gloot/plugin.cfg", "res://addons/quest_system/plugin.cfg", "res://addons/save_system/plugin.cfg")
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0

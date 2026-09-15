@@ -1,0 +1,2448 @@
+{
+  "files": {
+    "assets/art/easyrtp/battle/Arrow.png": {
+      "bytes": 1336,
+      "key": "#187518",
+      "keyed_pixels": 44890,
+      "sha256": "acec4d1a0e5b8edd6f58822c1eb8137296035e3189259f5a7877ff6c2b258ca0",
+      "upstream": "Battle/Arrow.png"
+    },
+    "assets/art/easyrtp/battle/Blow.png": {
+      "bytes": 15190,
+      "key": "#187518",
+      "keyed_pixels": 130335,
+      "sha256": "f644d336d44032317817f3e0071bba0af1ac70cdf081501c29dea3f50ab91840",
+      "upstream": "Battle/Blow.png"
+    },
+    "assets/art/easyrtp/battle/Sword1.png": {
+      "bytes": 5661,
+      "key": "#187518",
+      "keyed_pixels": 136342,
+      "sha256": "595bafaf070a7a8097af5a124e5a3726fa82b93e5731b386843931aeabfb226a",
+      "upstream": "Battle/Sword1.png"
+    },
+    "assets/art/easyrtp/battle_weapons/Weapon.png": {
+      "bytes": 5585,
+      "key": "#85B0B6",
+      "keyed_pixels": 95409,
+      "sha256": "1cc263bd3389a08309f8884a916b54d983553d27d7538bfa2af8460a573d2b35",
+      "upstream": "BattleWeapon/Weapon.png"
+    },
+    "assets/art/easyrtp/characters/Actor1_1.png": {
+      "bytes": 5110,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "f7c2cc4d003b1a71d787286f4cb40505f2258774145b6ab6d9b37dfec2a18e6a",
+      "upstream": "CharSet/Actor1.png"
+    },
+    "assets/art/easyrtp/characters/Actor1_2.png": {
+      "bytes": 4328,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "23a803e3e62842b9ac4489f96dd43d26a3e94df261f6b838f1dc5d72cad8dd5c",
+      "upstream": "CharSet/Actor1.png"
+    },
+    "assets/art/easyrtp/characters/Actor1_3.png": {
+      "bytes": 4182,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "927e8c3caa21447c8329d71f0ec5bdec5ca020d9daf364706b5f0120aa3dfa81",
+      "upstream": "CharSet/Actor1.png"
+    },
+    "assets/art/easyrtp/characters/Actor1_4.png": {
+      "bytes": 4230,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "d41226148d1cb7a005df90decc9f23a3af4fd256dd1ffc72b80d006852235283",
+      "upstream": "CharSet/Actor1.png"
+    },
+    "assets/art/easyrtp/characters/Actor1_5.png": {
+      "bytes": 5756,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "577d7cb67572cb2be7c9b087de29e01da02a590c3051684125c2a315c7c361bf",
+      "upstream": "CharSet/Actor1.png"
+    },
+    "assets/art/easyrtp/characters/Actor1_6.png": {
+      "bytes": 4957,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "840b9e537dbc4b54ed071684fc1ebe7af4c7782e41054b54829f48e865d4e8d0",
+      "upstream": "CharSet/Actor1.png"
+    },
+    "assets/art/easyrtp/characters/Actor1_7.png": {
+      "bytes": 4410,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "fa6cb5cc0279f5e66bd058352128e356fc0e39ac8cd94f0995f6c6dc0bbf2f38",
+      "upstream": "CharSet/Actor1.png"
+    },
+    "assets/art/easyrtp/characters/Actor1_8.png": {
+      "bytes": 4646,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "4ee9ff957413c090186b844481858ca749c83afc906339cd33c78d3681fb9c8a",
+      "upstream": "CharSet/Actor1.png"
+    },
+    "assets/art/easyrtp/characters/Actor2_1.png": {
+      "bytes": 4328,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "3a83df738b29c5035416af0381518c7f78d7ae752c78f1abc28f486deab6a10e",
+      "upstream": "CharSet/Actor2.png"
+    },
+    "assets/art/easyrtp/characters/Actor2_2.png": {
+      "bytes": 4538,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "96e194913c37c7e503e2c94c07da006a2b96ec56ac30455ee69613fcf36e7fc5",
+      "upstream": "CharSet/Actor2.png"
+    },
+    "assets/art/easyrtp/characters/Actor2_3.png": {
+      "bytes": 5218,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "22153193a0aafacdccafa43b45a1d0f1b12da5ecf513b240eb6f41a3e16818dd",
+      "upstream": "CharSet/Actor2.png"
+    },
+    "assets/art/easyrtp/characters/Actor2_4.png": {
+      "bytes": 5354,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "161e6f535e1c0126aa76227459ef0e1bd669a9dcbc618c1574f32d981bdc4fe9",
+      "upstream": "CharSet/Actor2.png"
+    },
+    "assets/art/easyrtp/characters/Actor2_5.png": {
+      "bytes": 6281,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "f37ee5e595ed74983fe85fe7beb67ba45536fb7f5209a519b7c94f20780ffe5b",
+      "upstream": "CharSet/Actor2.png"
+    },
+    "assets/art/easyrtp/characters/Actor2_6.png": {
+      "bytes": 5381,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "b87a3a8c1f732b06a646687c5bb129ac24018129941f1b5b45094280391c10f3",
+      "upstream": "CharSet/Actor2.png"
+    },
+    "assets/art/easyrtp/characters/Actor2_7.png": {
+      "bytes": 6115,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "b33a403a1a952661a5840fb50a54e0940b6120dcadf501b8d9759cc88e90b5d9",
+      "upstream": "CharSet/Actor2.png"
+    },
+    "assets/art/easyrtp/characters/Actor2_8.png": {
+      "bytes": 5917,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "b3aa809de14dee0c11af30c6de7c85458461d9171aec6a8970ee9dbd21229a02",
+      "upstream": "CharSet/Actor2.png"
+    },
+    "assets/art/easyrtp/characters/Actor3_1.png": {
+      "bytes": 4614,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "06e040e65a114232286e95c4415537fd0fc9a78ce93a6b1df715a6ca65835401",
+      "upstream": "CharSet/Actor3.png"
+    },
+    "assets/art/easyrtp/characters/Actor3_2.png": {
+      "bytes": 4596,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "32a10840af38fe65ae5ffc47dbd1ff99a9edb12ae39bdcc24b85e267e989628b",
+      "upstream": "CharSet/Actor3.png"
+    },
+    "assets/art/easyrtp/characters/Actor3_3.png": {
+      "bytes": 3978,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "f943262eea1f401bf039ee3b8c97ca05e37956dc4b46d1bd23923e258edf1131",
+      "upstream": "CharSet/Actor3.png"
+    },
+    "assets/art/easyrtp/characters/Actor3_4.png": {
+      "bytes": 4993,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "67b37ff7fc61bd3221a20bac8374302930555fa1b154bb4e2360f15e656e3a61",
+      "upstream": "CharSet/Actor3.png"
+    },
+    "assets/art/easyrtp/characters/Actor3_5.png": {
+      "bytes": 4622,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "9ad7dd9622241e562f8a0d7841ed689723f5a3638371b6ffeea74fdee9bd3b65",
+      "upstream": "CharSet/Actor3.png"
+    },
+    "assets/art/easyrtp/characters/Actor3_6.png": {
+      "bytes": 5088,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "e7884d3e49b1abe899907ee4cb7822d9909c0acbc19719975fd01e02db03d091",
+      "upstream": "CharSet/Actor3.png"
+    },
+    "assets/art/easyrtp/characters/Actor3_7.png": {
+      "bytes": 4744,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "72895c9daa45ccb89f25269fca0943940b36a7c36e7324bfb5f6c5a7187eb06a",
+      "upstream": "CharSet/Actor3.png"
+    },
+    "assets/art/easyrtp/characters/Actor3_8.png": {
+      "bytes": 5644,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "69c9f1f4c3749034fd58e0b0afbf8498124cf6081e0a65859a86268f5dd624ac",
+      "upstream": "CharSet/Actor3.png"
+    },
+    "assets/art/easyrtp/characters/Actor4_1.png": {
+      "bytes": 4629,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "f05e2281a80f97d667e7282af6b87afc5fca8cae9eef9fe4cd58ab242979fc80",
+      "upstream": "CharSet/Actor4.png"
+    },
+    "assets/art/easyrtp/characters/Actor4_2.png": {
+      "bytes": 4571,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "18eb9a5f66c6c63c0f70b1f6fdaaccb54f8298ea8ed56b3bb12fff282f2fecbf",
+      "upstream": "CharSet/Actor4.png"
+    },
+    "assets/art/easyrtp/characters/Actor4_3.png": {
+      "bytes": 4836,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "960ff15c6053ce4226f600ba0965315b5c8c8ff975762024ed670ea43df1490a",
+      "upstream": "CharSet/Actor4.png"
+    },
+    "assets/art/easyrtp/characters/Actor4_4.png": {
+      "bytes": 4122,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "529b1f33f5827c144b5da1e24c7d33fe62adada68590575dbd3cc529452b41cc",
+      "upstream": "CharSet/Actor4.png"
+    },
+    "assets/art/easyrtp/characters/Actor4_5.png": {
+      "bytes": 4606,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "7f788f46f3d8dafa5745064d92e5b46d96070c4b00f3c9b6fc78cc0de752860f",
+      "upstream": "CharSet/Actor4.png"
+    },
+    "assets/art/easyrtp/characters/Actor4_6.png": {
+      "bytes": 4388,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "7012cda9dcf26bc6ed072a01602455558a69cb0039f872937c3a67ecdce9e6ac",
+      "upstream": "CharSet/Actor4.png"
+    },
+    "assets/art/easyrtp/characters/Actor4_7.png": {
+      "bytes": 4667,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "2b0c9aedc53cef4bc8158b1659d16cd6635e77e7e82ffb1a7e076d2f224e3aab",
+      "upstream": "CharSet/Actor4.png"
+    },
+    "assets/art/easyrtp/characters/Actor4_8.png": {
+      "bytes": 5445,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "23f7eb428e90b33fde4abfc9a0e43217466258aa07dada4483121fafb07a0cb4",
+      "upstream": "CharSet/Actor4.png"
+    },
+    "assets/art/easyrtp/characters/Animal_1.png": {
+      "bytes": 2165,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "c737ee97ed7536917ca02cc7908cc40c6745a1f6b3172f47e2d04999f0b70815",
+      "upstream": "CharSet/Animal.png"
+    },
+    "assets/art/easyrtp/characters/Animal_2.png": {
+      "bytes": 1696,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "70b445bca5dbc50df9ba70dc9722a9d3a93ba6a47aa01bbf0baf66eacc71b893",
+      "upstream": "CharSet/Animal.png"
+    },
+    "assets/art/easyrtp/characters/Animal_3.png": {
+      "bytes": 2006,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "31715b86297919ef5b608a92a13e7a08aff0474c48d32d7121f457e242fc560a",
+      "upstream": "CharSet/Animal.png"
+    },
+    "assets/art/easyrtp/characters/Animal_4.png": {
+      "bytes": 3149,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "9534568cebded049bba301cb188f18f4b3ff250bc013c09df27e58064bf329ec",
+      "upstream": "CharSet/Animal.png"
+    },
+    "assets/art/easyrtp/characters/Animal_5.png": {
+      "bytes": 3051,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "0019bfa3767ccd6bd0d57dc55606d436d557df43f2e4ed9dfdd443d0b1feb088",
+      "upstream": "CharSet/Animal.png"
+    },
+    "assets/art/easyrtp/characters/Animal_6.png": {
+      "bytes": 2685,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "d28e99540e69716f521c668f45e2366b5f7102915045ff08abaf53a597985ad6",
+      "upstream": "CharSet/Animal.png"
+    },
+    "assets/art/easyrtp/characters/Animal_7.png": {
+      "bytes": 3104,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "aa48fa95b31578f85f46720a9ccd051cd0e63cb4f8d6aa3c64c9ce227a67d830",
+      "upstream": "CharSet/Animal.png"
+    },
+    "assets/art/easyrtp/characters/Animal_8.png": {
+      "bytes": 3708,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "3decbea4c6c029f3a3155f8ce119942d8ee7136683fcdd38eea4b960efb0bd83",
+      "upstream": "CharSet/Animal.png"
+    },
+    "assets/art/easyrtp/characters/Monster1_1.png": {
+      "bytes": 881,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "0a6b5681245039e18ecbebbb75d8863d058cf67610eb326b522925a1b0934599",
+      "upstream": "CharSet/Monster1.png"
+    },
+    "assets/art/easyrtp/characters/Monster1_2.png": {
+      "bytes": 3648,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "c7ff51fb7f85dd4370b79f7b3b94de624f373de5e165009705b07ff1b6560508",
+      "upstream": "CharSet/Monster1.png"
+    },
+    "assets/art/easyrtp/characters/Monster1_3.png": {
+      "bytes": 5516,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "961f936d227d4835ba3be9d69de4cdd127273524a572cecbbbf27981bab8c1c7",
+      "upstream": "CharSet/Monster1.png"
+    },
+    "assets/art/easyrtp/characters/Monster1_4.png": {
+      "bytes": 2820,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "3f5fb75abf9af2c655dcf5c3bc1338799f3e381373f53d80f3dfe295ed5fe385",
+      "upstream": "CharSet/Monster1.png"
+    },
+    "assets/art/easyrtp/characters/Monster1_5.png": {
+      "bytes": 3504,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "56c210ed718b4000092cc53ae9b918510e7fed05aedf6ca1e0ab53a0359def4e",
+      "upstream": "CharSet/Monster1.png"
+    },
+    "assets/art/easyrtp/characters/Monster1_6.png": {
+      "bytes": 3727,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "b3e95f39ac66261680ae221e9b36e29b2456ae4930d83c68742a5ce2ff983f1f",
+      "upstream": "CharSet/Monster1.png"
+    },
+    "assets/art/easyrtp/characters/Monster1_7.png": {
+      "bytes": 2790,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "e266f8da457e5720586b2d64d18e38b81a6f5ffff1992c74fdb450c98233f506",
+      "upstream": "CharSet/Monster1.png"
+    },
+    "assets/art/easyrtp/characters/Monster1_8.png": {
+      "bytes": 6924,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "0747c03ed393b7ebdf5c37d80c60254a0b0c2690178e3a96ddbe2496bb2d63a7",
+      "upstream": "CharSet/Monster1.png"
+    },
+    "assets/art/easyrtp/characters/Monster2_1.png": {
+      "bytes": 7014,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "83777edf15fddac49ff2b8e8507a53ff2e451056118855eed2e34700b7566667",
+      "upstream": "CharSet/Monster2.png"
+    },
+    "assets/art/easyrtp/characters/Monster2_2.png": {
+      "bytes": 8489,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "39b0ca7107f04721ce57d9fd4cf149b93dc938c1e81e71d21a972cf48e784540",
+      "upstream": "CharSet/Monster2.png"
+    },
+    "assets/art/easyrtp/characters/Monster2_3.png": {
+      "bytes": 4924,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "5f2bf882bf351f06da5a7fd057b08175b5580507c3efb48ac60e400bf8b62ef2",
+      "upstream": "CharSet/Monster2.png"
+    },
+    "assets/art/easyrtp/characters/Monster2_4.png": {
+      "bytes": 5765,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "2323ff9f416abd856b59e6b177ba9928510092d9853ce76dcbc8c6bc92c61852",
+      "upstream": "CharSet/Monster2.png"
+    },
+    "assets/art/easyrtp/characters/Monster2_5.png": {
+      "bytes": 5367,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "1a8894f7ecae7d5566f25307f243cc56a6e39b583ee61f2c28c461514e05004d",
+      "upstream": "CharSet/Monster2.png"
+    },
+    "assets/art/easyrtp/characters/Monster2_6.png": {
+      "bytes": 8081,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "a9600cfad0bdb78cd013f9ed2d431fb4db33a0c67cd6011cc7919e57e738d54c",
+      "upstream": "CharSet/Monster2.png"
+    },
+    "assets/art/easyrtp/characters/Monster2_7.png": {
+      "bytes": 10025,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "ba2391b8b95b7e8f7254d9dd68d4dbd1352224236873a3472af5bba0ba3ba921",
+      "upstream": "CharSet/Monster2.png"
+    },
+    "assets/art/easyrtp/characters/Monster2_8.png": {
+      "bytes": 7772,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "e848ecc688a410d1522d671f13d60ef723c1e36db79f63c454e140e220105749",
+      "upstream": "CharSet/Monster2.png"
+    },
+    "assets/art/easyrtp/characters/Monster3_1.png": {
+      "bytes": 7034,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "a157a6012f3d39dcd2d2500632eabd8b807801d21123c5131836a245de19cabf",
+      "upstream": "CharSet/Monster3.png"
+    },
+    "assets/art/easyrtp/characters/Monster3_2.png": {
+      "bytes": 10440,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "4c88605ec46a28ec342b158a3fa7b30d0f194470680ac69899108b46dfe47597",
+      "upstream": "CharSet/Monster3.png"
+    },
+    "assets/art/easyrtp/characters/Monster3_3.png": {
+      "bytes": 4162,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "4b6e3b7c2cc103a5c89f66dccd1e62fb683841f16160b719fe87d6c20bf5dcdd",
+      "upstream": "CharSet/Monster3.png"
+    },
+    "assets/art/easyrtp/characters/Monster3_4.png": {
+      "bytes": 7589,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "ff302ec98b6a854bc1b1265c22430b663a2627dc5c22cfb3ac063778b0b775d8",
+      "upstream": "CharSet/Monster3.png"
+    },
+    "assets/art/easyrtp/characters/Monster3_5.png": {
+      "bytes": 7546,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "c9cc482269e3105d4829b148a73af48ca599decafd60985e313b3157cba779b4",
+      "upstream": "CharSet/Monster3.png"
+    },
+    "assets/art/easyrtp/characters/Monster3_6.png": {
+      "bytes": 7715,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "69a2d9aed57e09435c4d3f3830c30e7652df59a9d21f5f4a7d6c6aea47d56ce7",
+      "upstream": "CharSet/Monster3.png"
+    },
+    "assets/art/easyrtp/characters/Monster3_7.png": {
+      "bytes": 6438,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "a71dc5501ff7b38e53a8af264a89db345ed4689708d620f05bda9126652ce11f",
+      "upstream": "CharSet/Monster3.png"
+    },
+    "assets/art/easyrtp/characters/Monster3_8.png": {
+      "bytes": 5663,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "9ed8c1840ece5828e2dd57948aab794a114e423868c96bfeca3d3dd52da71304",
+      "upstream": "CharSet/Monster3.png"
+    },
+    "assets/art/easyrtp/characters/Object1_1.png": {
+      "bytes": 2427,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#FE678A",
+        "row": 0
+      },
+      "sha256": "fe4d073f70499c8435bb91fd4d20d8ee08ce7b9365d6ce0bb689ef0e1e1dcd41",
+      "upstream": "CharSet/Object1.png"
+    },
+    "assets/art/easyrtp/characters/Object1_2.png": {
+      "bytes": 2148,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#FE678A",
+        "row": 0
+      },
+      "sha256": "b35b118114e8e3eafe551c07f3545e28c6214f3a0f2cdfa4c95a61efb5bffd13",
+      "upstream": "CharSet/Object1.png"
+    },
+    "assets/art/easyrtp/characters/Object1_3.png": {
+      "bytes": 2589,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#FE678A",
+        "row": 0
+      },
+      "sha256": "1d7254c0f7954df89fe2717901c1e7c084b8adf2da3545d82ba69603df77a6b7",
+      "upstream": "CharSet/Object1.png"
+    },
+    "assets/art/easyrtp/characters/Object1_4.png": {
+      "bytes": 2509,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#FE678A",
+        "row": 0
+      },
+      "sha256": "643cf132eaf2e1093164cc9f0834132fd70d187950482a0d166663b38952c07c",
+      "upstream": "CharSet/Object1.png"
+    },
+    "assets/art/easyrtp/characters/Object1_5.png": {
+      "bytes": 2585,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#FE678A",
+        "row": 1
+      },
+      "sha256": "0f1f32245f827700ec11381be67a98b40c91b194e3daa9dc9dc169d23d43f84c",
+      "upstream": "CharSet/Object1.png"
+    },
+    "assets/art/easyrtp/characters/Object1_6.png": {
+      "bytes": 2320,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#FE678A",
+        "row": 1
+      },
+      "sha256": "bd980e8924ff3e0fd5eaac23274fcc72bc59fb405b0e8b4a5fcf25918e907945",
+      "upstream": "CharSet/Object1.png"
+    },
+    "assets/art/easyrtp/characters/Object1_7.png": {
+      "bytes": 1093,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#FE678A",
+        "row": 1
+      },
+      "sha256": "3e99b558922f1a66666d245b342a91dce4b5a93cbb006764be9ae749d3a3062f",
+      "upstream": "CharSet/Object1.png"
+    },
+    "assets/art/easyrtp/characters/Object1_8.png": {
+      "bytes": 979,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#FE678A",
+        "row": 1
+      },
+      "sha256": "fbd871cbd783faa4fa4e47b00739a1a2f4cf5cbfb63bc507de96ad34db84321c",
+      "upstream": "CharSet/Object1.png"
+    },
+    "assets/art/easyrtp/characters/Object2_1.png": {
+      "bytes": 1148,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#FF678B",
+        "row": 0
+      },
+      "sha256": "e71f25caac1211204b029517a726608cc3b9bb8b6841acd0d1acaba8133c99c7",
+      "upstream": "CharSet/Object2.png"
+    },
+    "assets/art/easyrtp/characters/Object2_2.png": {
+      "bytes": 1311,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#FF678B",
+        "row": 0
+      },
+      "sha256": "d413aac0b74823928142a68f9b37d832109ad50f3d90301fc7eb6fa7b4883084",
+      "upstream": "CharSet/Object2.png"
+    },
+    "assets/art/easyrtp/characters/Object2_3.png": {
+      "bytes": 1259,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#FF678B",
+        "row": 0
+      },
+      "sha256": "ef1c66e16a572a9e2707428151782afb8b3229af164a5e2de65daf18b4226401",
+      "upstream": "CharSet/Object2.png"
+    },
+    "assets/art/easyrtp/characters/Object2_4.png": {
+      "bytes": 937,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#FF678B",
+        "row": 0
+      },
+      "sha256": "c45e623af9f0e0e0e5ad83ae9b3fcc6f5d9096182e968b7f89ad876dc4181738",
+      "upstream": "CharSet/Object2.png"
+    },
+    "assets/art/easyrtp/characters/Object2_5.png": {
+      "bytes": 949,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#FF678B",
+        "row": 1
+      },
+      "sha256": "ce4004acb8726137768389a4d167775017120105e3b77b7ea9f27cc8c1657427",
+      "upstream": "CharSet/Object2.png"
+    },
+    "assets/art/easyrtp/characters/Object2_6.png": {
+      "bytes": 1262,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#FF678B",
+        "row": 1
+      },
+      "sha256": "731a22ce7c99f4fa5d3bbee8cae6c8a1d1d65717475872b35b21bc0aa99acbf2",
+      "upstream": "CharSet/Object2.png"
+    },
+    "assets/art/easyrtp/characters/Object2_7.png": {
+      "bytes": 1584,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#FF678B",
+        "row": 1
+      },
+      "sha256": "0769cccaa63348914b89ee7ea8db559814384267ca0a181d7c580f51b5a8618e",
+      "upstream": "CharSet/Object2.png"
+    },
+    "assets/art/easyrtp/characters/Object2_8.png": {
+      "bytes": 1637,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#FF678B",
+        "row": 1
+      },
+      "sha256": "7a5b92c78f67fdbaa5ea2c34e9aa6c9737641509b5c8b5b9b81d2a933e455991",
+      "upstream": "CharSet/Object2.png"
+    },
+    "assets/art/easyrtp/characters/People1_1.png": {
+      "bytes": 3517,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "d50eff0048ef78974327b574290ba243760f2a2377aa2d6519db03260fb5932a",
+      "upstream": "CharSet/People1.png"
+    },
+    "assets/art/easyrtp/characters/People1_2.png": {
+      "bytes": 3912,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "ca118f41bfc6da9c0f6fc9b919108d32a605f570de715d76228fbad4e6bb328e",
+      "upstream": "CharSet/People1.png"
+    },
+    "assets/art/easyrtp/characters/People1_3.png": {
+      "bytes": 4225,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "2b907b21d552ea061ab7a8ff05012c6343f9c5e0da8c15510cdab65b800524df",
+      "upstream": "CharSet/People1.png"
+    },
+    "assets/art/easyrtp/characters/People1_4.png": {
+      "bytes": 4620,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "9990ef72ede511d26b5e3da1f2d6a5b4a177a8753cf76edd043b7bd1a68963a3",
+      "upstream": "CharSet/People1.png"
+    },
+    "assets/art/easyrtp/characters/People1_5.png": {
+      "bytes": 4312,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "134b4a2212f1f40a8465e927a079eb9b4e911209cfccfbfa6d1a9c5f19e69d16",
+      "upstream": "CharSet/People1.png"
+    },
+    "assets/art/easyrtp/characters/People1_6.png": {
+      "bytes": 4515,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "147e72ee2200160aa0f63aa9f54289a244f7076b10fceb6ff26d75e58bb05364",
+      "upstream": "CharSet/People1.png"
+    },
+    "assets/art/easyrtp/characters/People1_7.png": {
+      "bytes": 3241,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "b1b0db946ce53d6ceb2e87e02aad21d5d86568f0b8f38292ea724ba6d16623a2",
+      "upstream": "CharSet/People1.png"
+    },
+    "assets/art/easyrtp/characters/People1_8.png": {
+      "bytes": 4045,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "6d5b5fb6476e8ed0f7b57a885c82383b788529b821794c10b25640635ef9dfd2",
+      "upstream": "CharSet/People1.png"
+    },
+    "assets/art/easyrtp/characters/People2_1.png": {
+      "bytes": 3909,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "418fe336fe466f152b26662e9ed60f0b5248f4e7bde8e9b97b4f1255dcbf7a8c",
+      "upstream": "CharSet/People2.png"
+    },
+    "assets/art/easyrtp/characters/People2_2.png": {
+      "bytes": 3636,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "fe064659f9b838a514cfce13bcd5e4c3c742903fc0569203fdffc0ffc42e0c5c",
+      "upstream": "CharSet/People2.png"
+    },
+    "assets/art/easyrtp/characters/People2_3.png": {
+      "bytes": 3923,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "72cd878bde2f619f01ebca4f604eabe663f5748b0237cb6e25e8917cffc8343c",
+      "upstream": "CharSet/People2.png"
+    },
+    "assets/art/easyrtp/characters/People2_4.png": {
+      "bytes": 5483,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "e97cf2b417d52481f93640f9705caeaa75ec12d90c9eea7659ea00c4939323b8",
+      "upstream": "CharSet/People2.png"
+    },
+    "assets/art/easyrtp/characters/People2_5.png": {
+      "bytes": 4524,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "21fdef358fd8079b6dbf400851c97caad94607651ba2ee01bf9d60c3dc82df64",
+      "upstream": "CharSet/People2.png"
+    },
+    "assets/art/easyrtp/characters/People2_6.png": {
+      "bytes": 6499,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "79e0e62c0862a08adaf9e7984bf0bb39404b969c54b9ee9194eadacbefe60f7c",
+      "upstream": "CharSet/People2.png"
+    },
+    "assets/art/easyrtp/characters/People2_7.png": {
+      "bytes": 6824,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "26461f1d01dc62f2140c071e5772cf4487b3effe0657a307fc9855ba1e40f20a",
+      "upstream": "CharSet/People2.png"
+    },
+    "assets/art/easyrtp/characters/People2_8.png": {
+      "bytes": 4128,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "0c41fa2ca0d9a58555c7808f395c0a50bdb55432164142ea63aca2060562bd6e",
+      "upstream": "CharSet/People2.png"
+    },
+    "assets/art/easyrtp/characters/People3_1.png": {
+      "bytes": 4771,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "dca6d97d8da92e4be1d629cef96f6b4a5d68cb0d6022728a763890406d914b40",
+      "upstream": "CharSet/People3.png"
+    },
+    "assets/art/easyrtp/characters/People3_2.png": {
+      "bytes": 4895,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "2bfd5e52b0c7d4171aa3ce5833e257f6873b31137e1877fdce4fec5272fef16a",
+      "upstream": "CharSet/People3.png"
+    },
+    "assets/art/easyrtp/characters/People3_3.png": {
+      "bytes": 4117,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "debc4c0f94b761fbd9e123119dbbd3fb3ed04d929f84dc973e7cd7a3e54c6494",
+      "upstream": "CharSet/People3.png"
+    },
+    "assets/art/easyrtp/characters/People3_4.png": {
+      "bytes": 4371,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "8e2ea28b05d5ce0af5c12debb24880b84447da36bc3b1dc297eb86673364b25d",
+      "upstream": "CharSet/People3.png"
+    },
+    "assets/art/easyrtp/characters/People3_5.png": {
+      "bytes": 3938,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "c41be8cb0cb937d5df417f4ee6be8c137a40d71d807a768607a376afe728c3da",
+      "upstream": "CharSet/People3.png"
+    },
+    "assets/art/easyrtp/characters/People3_6.png": {
+      "bytes": 4368,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "fc00d27899f10b70a0002b26c770a11ff48c22e956c65cda84081ba6d2c09e08",
+      "upstream": "CharSet/People3.png"
+    },
+    "assets/art/easyrtp/characters/People3_7.png": {
+      "bytes": 4350,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "5b5ff34f41c58594ada82496ed53d6fa359c89e91a2b329267e008aa3e882948",
+      "upstream": "CharSet/People3.png"
+    },
+    "assets/art/easyrtp/characters/People3_8.png": {
+      "bytes": 4627,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "172d9f6af1ad6e5100bf36c187f03b3fb22a2fe0b7cb82982166e9c406c414bb",
+      "upstream": "CharSet/People3.png"
+    },
+    "assets/art/easyrtp/characters/People4_1.png": {
+      "bytes": 3330,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "bd98ca40c26db5fbb9a0262f6271203dd3999df22683a0db1d2e29a8a46027a2",
+      "upstream": "CharSet/People4.png"
+    },
+    "assets/art/easyrtp/characters/People4_2.png": {
+      "bytes": 3999,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "76294c84725477c2fd9aa15026b14bdde443ec11fb000e63bc11e68e5f566307",
+      "upstream": "CharSet/People4.png"
+    },
+    "assets/art/easyrtp/characters/People4_3.png": {
+      "bytes": 4208,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "8427ca57342affde36187c93aaa9e9cca2493051a3df244c8a2fc87816095fba",
+      "upstream": "CharSet/People4.png"
+    },
+    "assets/art/easyrtp/characters/People4_4.png": {
+      "bytes": 5376,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "10c08201d147f094b654a32046055bbf5da1a66acf4e3adbab02279a9e3b573f",
+      "upstream": "CharSet/People4.png"
+    },
+    "assets/art/easyrtp/characters/People4_5.png": {
+      "bytes": 3386,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "1ad5b67466910bf5da99dd28d6364e6fb6f5891ca61c73702ced4266302765f5",
+      "upstream": "CharSet/People4.png"
+    },
+    "assets/art/easyrtp/characters/People4_6.png": {
+      "bytes": 4459,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "a64d81cae99af03ac8eab2ea79d87f3169243a2c08eafc5c209571c7d8cba4fe",
+      "upstream": "CharSet/People4.png"
+    },
+    "assets/art/easyrtp/characters/People4_7.png": {
+      "bytes": 4330,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "4e645c0eb526c26d5a14c4bce0b55093cca39d9ad5f2775b914d80f377f9c418",
+      "upstream": "CharSet/People4.png"
+    },
+    "assets/art/easyrtp/characters/People4_8.png": {
+      "bytes": 3764,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "2988dae16c007aeea92a973bd9bde0881b96d63c5a177949e8b546a4f0189dfe",
+      "upstream": "CharSet/People4.png"
+    },
+    "assets/art/easyrtp/characters/People5_1.png": {
+      "bytes": 4096,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "dd8eb4662ea2de046cdfb0d164a1a25fc45548ed80182d98c9bc0615f1ea80e4",
+      "upstream": "CharSet/People5.png"
+    },
+    "assets/art/easyrtp/characters/People5_2.png": {
+      "bytes": 3716,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "9e1a897c7fb3517d343825c3ca8fb2ed082b1bfb6c1cd22a2d799f4a6ff6802e",
+      "upstream": "CharSet/People5.png"
+    },
+    "assets/art/easyrtp/characters/People5_3.png": {
+      "bytes": 4092,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "851eb420ee08ea10c1b852f205999edfe4d5047069af38bd3547ad4969b0fa77",
+      "upstream": "CharSet/People5.png"
+    },
+    "assets/art/easyrtp/characters/People5_4.png": {
+      "bytes": 5519,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "2e96ec55508a075fef29bb3b86488bb341045e98ec5dc70bd97370f269673dfa",
+      "upstream": "CharSet/People5.png"
+    },
+    "assets/art/easyrtp/characters/People5_5.png": {
+      "bytes": 4255,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "11923e47b914124fdb789ca6ba7ab5130c80a81da20b31a7ae2c7c1a630af69a",
+      "upstream": "CharSet/People5.png"
+    },
+    "assets/art/easyrtp/characters/People5_6.png": {
+      "bytes": 4268,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "11eed4b14b8fd4a0541cabafd9d1eeee290f5b1834ed08212f98abfdf166e8d1",
+      "upstream": "CharSet/People5.png"
+    },
+    "assets/art/easyrtp/characters/People5_7.png": {
+      "bytes": 4561,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "5521a42256f805a68c4df564cd13f6e2fa98e750e2116819ba2497a8632cd76a",
+      "upstream": "CharSet/People5.png"
+    },
+    "assets/art/easyrtp/characters/People5_8.png": {
+      "bytes": 3634,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "dc9d0259eaccfc5e9e5afc1e76290ad3b5c2eeda137faead3fdd92da8f137860",
+      "upstream": "CharSet/People5.png"
+    },
+    "assets/art/easyrtp/characters/Template_1.png": {
+      "bytes": 2581,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "04e02a0ca37dad3cc50e833525a530f0c925498183d957b1a160225156606132",
+      "upstream": "CharSet/Template.png"
+    },
+    "assets/art/easyrtp/characters/Template_2.png": {
+      "bytes": 4623,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "5beccd9de54357001ac2bb3c86ed1436e0302fbceec32d9fb1f5d92b661440d4",
+      "upstream": "CharSet/Template.png"
+    },
+    "assets/art/easyrtp/characters/Template_3.png": {
+      "bytes": 2091,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "ce27f5261915cbef267db0ed86a92655b5f44f285451a763e4ef3588e3797504",
+      "upstream": "CharSet/Template.png"
+    },
+    "assets/art/easyrtp/characters/Template_4.png": {
+      "bytes": 116,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "3998e8730c67f819b224f1ac5c26bffb3af4a457cd53c84853606ed06dd716f3",
+      "upstream": "CharSet/Template.png"
+    },
+    "assets/art/easyrtp/characters/Template_5.png": {
+      "bytes": 116,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "3998e8730c67f819b224f1ac5c26bffb3af4a457cd53c84853606ed06dd716f3",
+      "upstream": "CharSet/Template.png"
+    },
+    "assets/art/easyrtp/characters/Template_6.png": {
+      "bytes": 116,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "3998e8730c67f819b224f1ac5c26bffb3af4a457cd53c84853606ed06dd716f3",
+      "upstream": "CharSet/Template.png"
+    },
+    "assets/art/easyrtp/characters/Template_7.png": {
+      "bytes": 116,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "3998e8730c67f819b224f1ac5c26bffb3af4a457cd53c84853606ed06dd716f3",
+      "upstream": "CharSet/Template.png"
+    },
+    "assets/art/easyrtp/characters/Template_8.png": {
+      "bytes": 116,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "3998e8730c67f819b224f1ac5c26bffb3af4a457cd53c84853606ed06dd716f3",
+      "upstream": "CharSet/Template.png"
+    },
+    "assets/art/easyrtp/characters/Vehicles_1.png": {
+      "bytes": 2765,
+      "charset_cell": {
+        "col": 0,
+        "index": 1,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "1ca85a1dd4d7de4f804629abec9b7d1e2505ba44d7d967f1770938822ee66da0",
+      "upstream": "CharSet/Vehicles.png"
+    },
+    "assets/art/easyrtp/characters/Vehicles_2.png": {
+      "bytes": 6310,
+      "charset_cell": {
+        "col": 1,
+        "index": 2,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "8677a8e279c202fe3aebfc4fa5bd76e330f5610435acf4f76258503053c9c00e",
+      "upstream": "CharSet/Vehicles.png"
+    },
+    "assets/art/easyrtp/characters/Vehicles_3.png": {
+      "bytes": 5628,
+      "charset_cell": {
+        "col": 2,
+        "index": 3,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "917ba7d05e098d2f759725533e71c506f17acf986912619f8cc3aca20b6d3a4b",
+      "upstream": "CharSet/Vehicles.png"
+    },
+    "assets/art/easyrtp/characters/Vehicles_4.png": {
+      "bytes": 2182,
+      "charset_cell": {
+        "col": 3,
+        "index": 4,
+        "key": "#009392",
+        "row": 0
+      },
+      "sha256": "f5f09e58c79cebd8054594eed97ff354515ba95b3f0105ac8d89d2b6c003414b",
+      "upstream": "CharSet/Vehicles.png"
+    },
+    "assets/art/easyrtp/characters/Vehicles_5.png": {
+      "bytes": 3499,
+      "charset_cell": {
+        "col": 0,
+        "index": 5,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "2d8690edc00416ed3515df1f12601e07b7e7fc1523098bf904a4853c209b96b6",
+      "upstream": "CharSet/Vehicles.png"
+    },
+    "assets/art/easyrtp/characters/Vehicles_6.png": {
+      "bytes": 3139,
+      "charset_cell": {
+        "col": 1,
+        "index": 6,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "5aaec278f6b70e7978026c509207274f1b4dd7d254078000806f21d18f477cb5",
+      "upstream": "CharSet/Vehicles.png"
+    },
+    "assets/art/easyrtp/characters/Vehicles_7.png": {
+      "bytes": 4897,
+      "charset_cell": {
+        "col": 2,
+        "index": 7,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "20d38d336e089387e3793e27ebd6c6bd9422423a8daba21a65ab078ce7bc5003",
+      "upstream": "CharSet/Vehicles.png"
+    },
+    "assets/art/easyrtp/characters/Vehicles_8.png": {
+      "bytes": 3866,
+      "charset_cell": {
+        "col": 3,
+        "index": 8,
+        "key": "#009392",
+        "row": 1
+      },
+      "sha256": "de2e544beb19341929c53134553689ad0e54bd7486d6976c35d8d7e8a91cb7d4",
+      "upstream": "CharSet/Vehicles.png"
+    },
+    "assets/art/easyrtp/chipsets/Dungeon.png": {
+      "bytes": 86862,
+      "key": "#FF678B",
+      "keyed_pixels": 15347,
+      "sha256": "4ff913eb8214b73199c1b5904352f2c52e7eb68583dd1f9f4fc5d5249bd64698",
+      "upstream": "ChipSet/Dungeon.png"
+    },
+    "assets/art/easyrtp/chipsets/Exterior.png": {
+      "bytes": 88038,
+      "key": "#FF678B",
+      "keyed_pixels": 14201,
+      "sha256": "ea845d74ef067e2ca0e1ebba96974a8e191770bbacde3fc52e50f6be6546a8bf",
+      "upstream": "ChipSet/Exterior.png"
+    },
+    "assets/art/easyrtp/chipsets/Interior.png": {
+      "bytes": 85242,
+      "key": "#FF678B",
+      "keyed_pixels": 16439,
+      "sha256": "24741824153e297ba10dcf1f79fb4aa7746c493de3406c265d02603416a88847",
+      "upstream": "ChipSet/Interior.png"
+    },
+    "assets/art/easyrtp/chipsets/Ship.png": {
+      "bytes": 68928,
+      "key": "#FF678B",
+      "keyed_pixels": 20134,
+      "sha256": "1c4e9374de64145e3116aa839e8f0777d8bec6db0e71c6408fd0dd8d8df09871",
+      "upstream": "ChipSet/Ship.png"
+    },
+    "assets/art/easyrtp/chipsets/World.png": {
+      "bytes": 93047,
+      "key": "#FF678B",
+      "keyed_pixels": 13439,
+      "sha256": "6be6c7016725adf79db6dd4fe20523b77e7d046719bd3c6b3dd3e2ce4a487875",
+      "upstream": "ChipSet/World.png"
+    },
+    "assets/art/easyrtp/chipsets/retro_Dungeon.png": {
+      "bytes": 65256,
+      "key": "#FF678B",
+      "keyed_pixels": 15359,
+      "sha256": "f51589e76c39227a0f0eff6246134646497f36d6189a12312e6326aed236a9b8",
+      "upstream": "ChipSet/retro_Dungeon.png"
+    },
+    "assets/art/easyrtp/chipsets/retro_Exterior.png": {
+      "bytes": 73221,
+      "key": "#FE678A",
+      "keyed_pixels": 15506,
+      "sha256": "e326fd524efc9bb2760bf6e048d8b1c67adf2ce752f023402b08f41e146abe1d",
+      "upstream": "ChipSet/retro_Exterior.png"
+    },
+    "assets/art/easyrtp/chipsets/retro_World.png": {
+      "bytes": 78112,
+      "key": "#E067BF",
+      "keyed_pixels": 14853,
+      "sha256": "2f8254277d289ca99ae245afc069b8af7dd26f620547bafad16ed7a24ebe75cc",
+      "upstream": "ChipSet/retro_World.png"
+    },
+    "assets/art/easyrtp/facesets/Actor1.png": {
+      "bytes": 25933,
+      "copied": true,
+      "sha256": "fd86d3fbd912002c24162ffcaf9edbfdd84c490fa960242e638e06dcfc922119",
+      "upstream": "FaceSet/Actor1.png"
+    },
+    "assets/art/easyrtp/facesets/Actor2.png": {
+      "bytes": 24196,
+      "copied": true,
+      "sha256": "5a8a5b5f959078da86711ae6b5c9a8cf648c629843605bd6de86a20f403cb860",
+      "upstream": "FaceSet/Actor2.png"
+    },
+    "assets/art/easyrtp/facesets/Monster.png": {
+      "bytes": 23455,
+      "copied": true,
+      "sha256": "21ac327156ebbef5edfc5c0fdd591804b818651f1555b297f69254075c752dff",
+      "upstream": "FaceSet/Monster.png"
+    },
+    "assets/art/easyrtp/facesets/People1.png": {
+      "bytes": 23773,
+      "copied": true,
+      "sha256": "144bac5f87d0987fe65fab9b4aa76230db564a7045863b8cfe4709509748b887",
+      "upstream": "FaceSet/People1.png"
+    },
+    "assets/art/easyrtp/facesets/People2.png": {
+      "bytes": 24767,
+      "copied": true,
+      "sha256": "e41df84ceb72ce5530df6dbd98cb90c448f3568fb12a19719133b4980a52100c",
+      "upstream": "FaceSet/People2.png"
+    },
+    "assets/art/easyrtp/gameover/Game_Over.png": {
+      "bytes": 24612,
+      "copied": true,
+      "sha256": "0049a958b4ef5d6c2a540eb9f52d066634c33d73eed65bcbd5085f9735fba6e9",
+      "upstream": "GameOver/Game Over.png"
+    },
+    "assets/art/easyrtp/monsters/Hornet.png": {
+      "bytes": 1423,
+      "key": "#FF00FF",
+      "keyed_pixels": 3271,
+      "sha256": "3405d23f53d64a897909bccca90ea03cadfc2ce36fd48d1cb308b21e4419c200",
+      "upstream": "Monster/Hornet.png"
+    },
+    "assets/art/easyrtp/panoramas/Cosmos1.png": {
+      "bytes": 126497,
+      "copied": true,
+      "sha256": "138b4cc5e4c0ec0ac080bdf60cec4377ae32094de132bdb3762fd57c2b329dc3",
+      "upstream": "Panorama/Cosmos1.png"
+    },
+    "assets/art/easyrtp/panoramas/Dawn1.png": {
+      "bytes": 27513,
+      "copied": true,
+      "sha256": "34bda199804d1f88766313d890437f34d0050e80289bea47ac0fef8d5d93c46b",
+      "upstream": "Panorama/Dawn1.png"
+    },
+    "assets/art/easyrtp/panoramas/Dawn2.png": {
+      "bytes": 173648,
+      "copied": true,
+      "sha256": "ade60cc4bc5c9d7c1efef0ae749ca9d417338d633c784ee478fa4042efbdd6e8",
+      "upstream": "Panorama/Dawn2.png"
+    },
+    "assets/art/easyrtp/panoramas/Dimension_Rift.png": {
+      "bytes": 242941,
+      "copied": true,
+      "sha256": "2355f45fa7812eb4f83541b57da5a6819ff14147301273793c37fd8041725da8",
+      "upstream": "Panorama/Dimension Rift.png"
+    },
+    "assets/art/easyrtp/panoramas/Night_Sky1.png": {
+      "bytes": 17669,
+      "copied": true,
+      "sha256": "1783b56f4574e84dec08680d9f79d947461e4cdd111fa7ab8aeb74e4cb544202",
+      "upstream": "Panorama/Night Sky1.png"
+    },
+    "assets/art/easyrtp/panoramas/Night_Sky2.png": {
+      "bytes": 173780,
+      "copied": true,
+      "sha256": "99b8bcd9de32c8c8e12ab41266028ebc132cbbdd5400db73faa63ec61ccebb35",
+      "upstream": "Panorama/Night Sky2.png"
+    },
+    "assets/art/easyrtp/panoramas/Planet1.png": {
+      "bytes": 16233,
+      "copied": true,
+      "sha256": "e43c66b581429158dcdc7d54e67244820475e40fc6c573595021ed66b2aabd1c",
+      "upstream": "Panorama/Planet1.png"
+    },
+    "assets/art/easyrtp/panoramas/Planet2.png": {
+      "bytes": 16483,
+      "copied": true,
+      "sha256": "872aa5061debb092c25b49d5374cdbfca7e2d3b63758db318a731ba14c51b876",
+      "upstream": "Panorama/Planet2.png"
+    },
+    "assets/art/easyrtp/panoramas/Planet3.png": {
+      "bytes": 18361,
+      "copied": true,
+      "sha256": "3d92aa5c29b1106319e61d13893c2ced8903a51c4893d8665b13c31ce2410cfc",
+      "upstream": "Panorama/Planet3.png"
+    },
+    "assets/art/easyrtp/panoramas/Sky1.png": {
+      "bytes": 25387,
+      "copied": true,
+      "sha256": "fccec19cb2c09fb17f53fe9371cdde5a9802135cd9baacddfa0e46eb6d69b938",
+      "upstream": "Panorama/Sky1.png"
+    },
+    "assets/art/easyrtp/panoramas/Sky2.png": {
+      "bytes": 190774,
+      "copied": true,
+      "sha256": "b702362a0d4f643f5c71361f587ea0c6a9b75c3f814bab00128c770c944d578f",
+      "upstream": "Panorama/Sky2.png"
+    },
+    "assets/art/easyrtp/panoramas/Sunset1.png": {
+      "bytes": 30248,
+      "copied": true,
+      "sha256": "e58df32060bce147d58a9617a453c18ae15cabd616f0c65352f0bda14d32a4d5",
+      "upstream": "Panorama/Sunset1.png"
+    },
+    "assets/art/easyrtp/panoramas/Sunset2.png": {
+      "bytes": 179301,
+      "copied": true,
+      "sha256": "664f185c101c7784fcb19335cca0e26f9a3dc425c242cc40b329eb5327a797fb",
+      "upstream": "Panorama/Sunset2.png"
+    },
+    "assets/art/easyrtp/pictures/Cloud.png": {
+      "bytes": 1048,
+      "key": "#FF678B",
+      "keyed_pixels": 4390,
+      "sha256": "cf1ef09697f7808a4d68cc6685de17d40a452630910b58b3294aeb08ac31fd92",
+      "upstream": "Picture/Cloud.png"
+    },
+    "assets/art/easyrtp/system/Royal.png": {
+      "bytes": 1336,
+      "copied": true,
+      "sha256": "1da695e286a98577e42354aee38d77f1388adbf191eb0691a4e2d473ad2cab8c",
+      "upstream": "System/Royal.png"
+    },
+    "assets/art/easyrtp/system/System.png": {
+      "bytes": 1528,
+      "copied": true,
+      "sha256": "e834b43dc2cf9097ec0727539d4f828029c3550a94cf950940e19a464dd7d82e",
+      "upstream": "System/System.png"
+    },
+    "assets/art/easyrtp/system/SystemA.png": {
+      "bytes": 1387,
+      "copied": true,
+      "sha256": "4de0ff869a0a1f1555e631c21a610623b1ae46cf28ce709db8db50817fa69d84",
+      "upstream": "System/SystemA.png"
+    },
+    "assets/art/easyrtp/system/SystemB.png": {
+      "bytes": 1507,
+      "copied": true,
+      "sha256": "7e725ba9233243bd956e3c3c61830d4dfd19f88a7552665c65d51b18cf3317b0",
+      "upstream": "System/SystemB.png"
+    },
+    "assets/art/easyrtp/system/SystemC.png": {
+      "bytes": 1459,
+      "copied": true,
+      "sha256": "0e54eb4c9bb602938e07a3a6aa0374e41849eb7bba26e78ba89cb16349c91cd6",
+      "upstream": "System/SystemC.png"
+    },
+    "assets/art/easyrtp/system2/System2A.png": {
+      "bytes": 1397,
+      "key": "#FF9C00",
+      "keyed_pixels": 5718,
+      "sha256": "2602911f044ef28e95e541a265c32a2ebb82bb254d611be492412a4fae4d3a65",
+      "upstream": "System2/System2A.png"
+    },
+    "assets/art/easyrtp/system2/System2B.png": {
+      "bytes": 997,
+      "key": "#FF9C00",
+      "keyed_pixels": 5276,
+      "sha256": "58ae92c0dc79522077e30b94f0753ca9bb73d5cd1e0d1032ca1836042b456e25",
+      "upstream": "System2/System2B.png"
+    },
+    "assets/art/easyrtp/system2/System2C.png": {
+      "bytes": 991,
+      "key": "#FF9C00",
+      "keyed_pixels": 5456,
+      "sha256": "0c735f808b165a877ab4957988261664226ee6ef65e2f1d3db5bce3fe65d6a8e",
+      "upstream": "System2/System2C.png"
+    },
+    "assets/art/easyrtp/tilesets/Dungeon.tres": {
+      "bytes": 18147,
+      "generated": "tileset",
+      "sha256": "85eeede7da30197d9de8e21e982c5c1bfb89711a90a72d81d67c592869cf0446",
+      "tiles": 478,
+      "upstream": "ChipSet/Dungeon.png"
+    },
+    "assets/art/easyrtp/tilesets/Exterior.tres": {
+      "bytes": 18148,
+      "generated": "tileset",
+      "sha256": "2a17c63b2194ea1acf298b42d956683fd35b004a6b265c45384ec80f86b91073",
+      "tiles": 478,
+      "upstream": "ChipSet/Exterior.png"
+    },
+    "assets/art/easyrtp/tilesets/Interior.tres": {
+      "bytes": 18148,
+      "generated": "tileset",
+      "sha256": "baa1f54190012b4e6431ad438d52ffac99d504e8ca6d42bafc174f06bd9e20f9",
+      "tiles": 478,
+      "upstream": "ChipSet/Interior.png"
+    },
+    "assets/art/easyrtp/tilesets/Ship.tres": {
+      "bytes": 17626,
+      "generated": "tileset",
+      "sha256": "b1e17fbaac6022eed8c7f1ffbbedfe71f97acf7eef2794ec9982b42b63481774",
+      "tiles": 464,
+      "upstream": "ChipSet/Ship.png"
+    },
+    "assets/art/easyrtp/tilesets/World.tres": {
+      "bytes": 18145,
+      "generated": "tileset",
+      "sha256": "c9171fe6a84e35f4d8fa9b782397044e799892f719be454d1cc6c7c369ac2fc9",
+      "tiles": 478,
+      "upstream": "ChipSet/World.png"
+    },
+    "assets/art/easyrtp/tilesets/retro_Dungeon.tres": {
+      "bytes": 18153,
+      "generated": "tileset",
+      "sha256": "d64a236fc9fec7f90bb8e6f400451264f6b6a2f671cee14ea95e85604ca45ee0",
+      "tiles": 478,
+      "upstream": "ChipSet/retro_Dungeon.png"
+    },
+    "assets/art/easyrtp/tilesets/retro_Exterior.tres": {
+      "bytes": 18154,
+      "generated": "tileset",
+      "sha256": "99b5de45045ee3075a135224ce6da583dc80f8e9d9682377986b32546302a4ac",
+      "tiles": 478,
+      "upstream": "ChipSet/retro_Exterior.png"
+    },
+    "assets/art/easyrtp/tilesets/retro_World.tres": {
+      "bytes": 18151,
+      "generated": "tileset",
+      "sha256": "5294dba8660fe554b317d85d8b83fa006f6ef3b2160b80e0ee05868db5b39f20",
+      "tiles": 478,
+      "upstream": "ChipSet/retro_World.png"
+    },
+    "assets/art/easyrtp/titles/Title1.png": {
+      "bytes": 41548,
+      "copied": true,
+      "sha256": "9bdc8d1b1a71da5a0b2cec570997d806431f664b75c702db382e8480f6c93ae7",
+      "upstream": "Title/Title1.png"
+    },
+    "assets/art/easyrtp/titles/Title2.png": {
+      "bytes": 70820,
+      "copied": true,
+      "sha256": "3de7160cac4edbd34a9e217c3667412d01fa3a60e126788097e1365ab78110b5",
+      "upstream": "Title/Title2.png"
+    },
+    "assets/art/easyrtp/titles/Title3.png": {
+      "bytes": 43690,
+      "copied": true,
+      "sha256": "ca763918cdc23aad474bc54bfe10f749aeb167df5e00a6b8cf5ef16f5418aec9",
+      "upstream": "Title/Title3.png"
+    },
+    "assets/art/easyrtp/titles/Title4.png": {
+      "bytes": 64884,
+      "copied": true,
+      "sha256": "703eb3389dbface7d3a091e00329feb2a017c30da46ed775b9f62f80e9d22104",
+      "upstream": "Title/Title4.png"
+    },
+    "assets/audio/easyrtp/sounds/Absorb1.wav": {
+      "bytes": 64806,
+      "sha256": "27e7fe5de6f0efdd99dbcc95304824568fbd66bc2f42b8e10b5642228f726e00",
+      "upstream": "Sound/Absorb1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Absorb2.wav": {
+      "bytes": 164974,
+      "sha256": "98cc68d80c1d75a470af36b860e4dcc8c7d3371e6a2e7cd4e0a7d68e3c2770a8",
+      "upstream": "Sound/Absorb2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Attack1.wav": {
+      "bytes": 68552,
+      "sha256": "9d09af4dbb99038de4be485c5357251126982bcaff4f62daec1817e07beba1c1",
+      "upstream": "Sound/Attack1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Attack2.wav": {
+      "bytes": 22786,
+      "sha256": "d6c19592fa1157d0615228be105ba52cadfb8537f40b9a219c790a4f090202fc",
+      "upstream": "Sound/Attack2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Barrier.wav": {
+      "bytes": 132516,
+      "sha256": "c73395ac0ca14b3357dbabf47f86756b94f2f7b1bb3b1ff69f133b4bd03bef7c",
+      "upstream": "Sound/Barrier.wav"
+    },
+    "assets/audio/easyrtp/sounds/Barrier1.wav": {
+      "bytes": 26774,
+      "sha256": "f02b1cb10fe40efecbf6032416957b3f786249545b96d6035029ed49ef8845d3",
+      "upstream": "Sound/Barrier1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Barrier2.wav": {
+      "bytes": 73260,
+      "sha256": "eb3c9b17454f9c1e3a65ce781c1ae5fc6a51c27d3aafdb34e90bb90a15394661",
+      "upstream": "Sound/Barrier2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Bell.wav": {
+      "bytes": 256236,
+      "sha256": "47f660764ecca864f24fc03830f4e3cadb667a2eaeb1e8d2218c231229c8bb4c",
+      "upstream": "Sound/Bell.wav"
+    },
+    "assets/audio/easyrtp/sounds/Blind.wav": {
+      "bytes": 113936,
+      "sha256": "11f32ba178bd6f752a8689b575c5b22ee584ff567b7bc03f099a7e74464279ef",
+      "upstream": "Sound/Blind.wav"
+    },
+    "assets/audio/easyrtp/sounds/Blow2.wav": {
+      "bytes": 10244,
+      "sha256": "863e5bef31b4c0dd8d633ba28cdf8c2f95ba42f22ac421251bc28fa460ed807a",
+      "upstream": "Sound/Blow2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Blow4.wav": {
+      "bytes": 27430,
+      "sha256": "26d97ecc4360fb43c079f650af6bee3ecf2d5c109154d55af5445cda839f2de7",
+      "upstream": "Sound/Blow4.wav"
+    },
+    "assets/audio/easyrtp/sounds/Breath.wav": {
+      "bytes": 86834,
+      "sha256": "802bf8573d01c572e8ec905ebc3326b0c3b2186aab77966e1a8cb2d771264649",
+      "upstream": "Sound/Breath.wav"
+    },
+    "assets/audio/easyrtp/sounds/Buff.wav": {
+      "bytes": 132542,
+      "sha256": "7e6272437c16a648c2e8a1f36b97530210203768984184d8acbd3029ad4e1f85",
+      "upstream": "Sound/Buff.wav"
+    },
+    "assets/audio/easyrtp/sounds/Buzzer1.wav": {
+      "bytes": 28548,
+      "sha256": "68f72990c9e5f165507f77dbe006514a4d76925318b9228142a83ae146d3fc46",
+      "upstream": "Sound/Buzzer1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Buzzer2.wav": {
+      "bytes": 36644,
+      "sha256": "774de59ab7c8a9d3788b837b99bc712a412b612ecfc0ac0bd31402111c851912",
+      "upstream": "Sound/Buzzer2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Buzzer3.wav": {
+      "bytes": 33408,
+      "sha256": "7c1bda33eb3529b89b272d0d4f794fda7b2865c6b57f1043b5027dbf4333c989",
+      "upstream": "Sound/Buzzer3.wav"
+    },
+    "assets/audio/easyrtp/sounds/Buzzer4.wav": {
+      "bytes": 20372,
+      "sha256": "90b2b0203410de72767eb6bcb4e2f40831a8ea55a0d02397244cbff7fdd58a84",
+      "upstream": "Sound/Buzzer4.wav"
+    },
+    "assets/audio/easyrtp/sounds/Cancel1.wav": {
+      "bytes": 14900,
+      "sha256": "0fc22b072113da85a1047d264ef7075b63373da8b814b9bca751fb009c45bbb9",
+      "upstream": "Sound/Cancel1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Cancel2.wav": {
+      "bytes": 27524,
+      "sha256": "c241ff6a851ed6a9c62c67aee472b3b31bee598befde086a20fbfb0146de5016",
+      "upstream": "Sound/Cancel2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Cat.wav": {
+      "bytes": 94472,
+      "sha256": "c1f118d4685f600df46a808b9758e2e293650b4cb07d50a7d31253d38bf57a13",
+      "upstream": "Sound/Cat.wav"
+    },
+    "assets/audio/easyrtp/sounds/Chime1.wav": {
+      "bytes": 61348,
+      "sha256": "ac0f6da87cab9985e40518d3715eb4c1036c6c7186cf8bd71aa411c4dbbef259",
+      "upstream": "Sound/Chime1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Chime2.wav": {
+      "bytes": 63946,
+      "sha256": "01383db7ad143e3fcfc870f3104f957055b9eef66a061e1ba0a0790409f8fdf9",
+      "upstream": "Sound/Chime2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Clock.wav": {
+      "bytes": 78036,
+      "sha256": "91892f64464914b70f4a931455c4ccc9eb4809b9826555ee302b1352091c510b",
+      "upstream": "Sound/Clock.wav"
+    },
+    "assets/audio/easyrtp/sounds/Close1.wav": {
+      "bytes": 240940,
+      "sha256": "b9bf3664faa8e300d0fb1ae47573aa14e4612eee8971c96b15e2812c7a6c264c",
+      "upstream": "Sound/Close1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Collapse1.wav": {
+      "bytes": 73178,
+      "sha256": "1637deaea13cef97f1f022cd1e75ac3dcfdcd306e6e038ae3a6de613377bcdfa",
+      "upstream": "Sound/Collapse1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Collapse2.wav": {
+      "bytes": 70926,
+      "sha256": "04666aea328cb5c330d72ad7cb6a48253334bcdb384e6cd989821ea1e2104196",
+      "upstream": "Sound/Collapse2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Combat1.wav": {
+      "bytes": 173656,
+      "sha256": "a7887aa6d5dbe46051e1cc77c6e7795ac82991a2c46d900dec6632fcbfdbf6f2",
+      "upstream": "Sound/Combat1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Combat2.wav": {
+      "bytes": 93134,
+      "sha256": "5b56b7a54c7d346fc556e53f27b31fa1a0ae927569b15a60648577d8f43d233d",
+      "upstream": "Sound/Combat2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Confusion.wav": {
+      "bytes": 56942,
+      "sha256": "0e129d430fab2aa28a7950d63f0e7d135117bf668b64350668316f83b72bc962",
+      "upstream": "Sound/Confusion.wav"
+    },
+    "assets/audio/easyrtp/sounds/Cursor1.wav": {
+      "bytes": 32158,
+      "sha256": "6861add1c61a70e668d29c83d62f1cdf5275e9fa5b61695d384bc95319df24e2",
+      "upstream": "Sound/Cursor1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Cursor2.wav": {
+      "bytes": 6692,
+      "sha256": "3179a973a11314ac9995dff7ca136fbb43506a56009dc481375aa869a9e5edb1",
+      "upstream": "Sound/Cursor2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Damage2.wav": {
+      "bytes": 24530,
+      "sha256": "da9484c9caa7c1bd936bb62eecc9471342e04dff2f5946c6ba3e24f9464da723",
+      "upstream": "Sound/Damage2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Darkness3.wav": {
+      "bytes": 35086,
+      "sha256": "0860b2165e248c138e0ae8e54d88df46bc075eb26939cad1617b2eec380ae62e",
+      "upstream": "Sound/Darkness3.wav"
+    },
+    "assets/audio/easyrtp/sounds/Darkness4.wav": {
+      "bytes": 34898,
+      "sha256": "b4344aa6f73fe2d3ee2bdb99ab6c766b883d0cd99cd3266b4e92872ea9ed6058",
+      "upstream": "Sound/Darkness4.wav"
+    },
+    "assets/audio/easyrtp/sounds/Darkness5.wav": {
+      "bytes": 119196,
+      "sha256": "5c9366e5850c6566bd35d5ac6f6b00200ae42547c4030b9ed57cea307ea53c53",
+      "upstream": "Sound/Darkness5.wav"
+    },
+    "assets/audio/easyrtp/sounds/Debuff.wav": {
+      "bytes": 132542,
+      "sha256": "fa92873350e14456ea49e455350e44b21b432aff9259ea646fe0ba17d3ff8206",
+      "upstream": "Sound/Debuff.wav"
+    },
+    "assets/audio/easyrtp/sounds/Decision1.wav": {
+      "bytes": 58760,
+      "sha256": "45dd441312f3f32463d26eec9e4789fe57271e8aa77153b911003042f24221ef",
+      "upstream": "Sound/Decision1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Decision2.wav": {
+      "bytes": 46612,
+      "sha256": "920e6a8ab89fd6c85baa6b5a1723b2f70b2f3b1a38867c346c0e4b2784565c0e",
+      "upstream": "Sound/Decision2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Dog.wav": {
+      "bytes": 48110,
+      "sha256": "ce12387e7d124b72352483cd7efd3190b542ceaf6d38d19bc8f9cdbcf798851b",
+      "upstream": "Sound/Dog.wav"
+    },
+    "assets/audio/easyrtp/sounds/Earth2.wav": {
+      "bytes": 110416,
+      "sha256": "c0911d259400e403718da793a54cbd6994b15939c53e2257936e77bf8ec33d3b",
+      "upstream": "Sound/Earth2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Earth6.wav": {
+      "bytes": 127668,
+      "sha256": "856ffb40cda656fa84aac573974af970551e868a57c956ea18b2d325cfc55d93",
+      "upstream": "Sound/Earth6.wav"
+    },
+    "assets/audio/easyrtp/sounds/Earth7.wav": {
+      "bytes": 32784,
+      "sha256": "eed6cac3026702b49ba138f76aadf53c0dd1ee11e344328dd285f2820618a120",
+      "upstream": "Sound/Earth7.wav"
+    },
+    "assets/audio/easyrtp/sounds/Earth8.wav": {
+      "bytes": 101676,
+      "sha256": "79cc3ff0dd8da872201e11736a34acb4641bb9951420b3fd36d6e2d846037c0e",
+      "upstream": "Sound/Earth8.wav"
+    },
+    "assets/audio/easyrtp/sounds/Escape.wav": {
+      "bytes": 105484,
+      "sha256": "3cb3b9ea619143a18a7996538a34a0edad92fe5f3f0d5b1e96833a8b85c7d271",
+      "upstream": "Sound/Escape.wav"
+    },
+    "assets/audio/easyrtp/sounds/Evade1.wav": {
+      "bytes": 48624,
+      "sha256": "ee434cedda533abe2476cfb943e114315639f2bab01ce041dda2da49be06b258",
+      "upstream": "Sound/Evade1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Evade2.wav": {
+      "bytes": 40624,
+      "sha256": "2e33041c355614804d52b1ecfb1443718e91cf4de8d1a71541e3d54178700b38",
+      "upstream": "Sound/Evade2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Explosion1.wav": {
+      "bytes": 174920,
+      "sha256": "24bf185db908e73f64c754e9830e20ac2f940d6cd8dabfe5c4f73348ac582415",
+      "upstream": "Sound/Explosion1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Fall1.wav": {
+      "bytes": 83904,
+      "sha256": "8b1b0f9aba67f451365a02b3fe8b6f0209961aeeb14f34c2cbb555001ff92961",
+      "upstream": "Sound/Fall1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Fall2.wav": {
+      "bytes": 84136,
+      "sha256": "6770a1f3e636e5ad286652ca7ebb3bef1008274cf1e2b01c6575452759706a01",
+      "upstream": "Sound/Fall2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Fire1.wav": {
+      "bytes": 134332,
+      "sha256": "a3eb9d31c130993ef547930a2f0d8dd1ff9072276263e1c64d25c93a95dd6346",
+      "upstream": "Sound/Fire1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Fire2.wav": {
+      "bytes": 146048,
+      "sha256": "16efadb59e100f1f1f41926d052d2a4d1bf199f50c6a8aaa3721d5351cd4c20f",
+      "upstream": "Sound/Fire2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Fire3.wav": {
+      "bytes": 93620,
+      "sha256": "60cd5ec8ba0b13a5906a8b3a5ce4b37dd52cc3e3ab106ddaf02f70ac42738fe8",
+      "upstream": "Sound/Fire3.wav"
+    },
+    "assets/audio/easyrtp/sounds/Fire4.wav": {
+      "bytes": 146932,
+      "sha256": "07f6f8062aa54e27b673346d08b880c1f934f3ab34c5215d655924fb4d6cb039",
+      "upstream": "Sound/Fire4.wav"
+    },
+    "assets/audio/easyrtp/sounds/Fire5.wav": {
+      "bytes": 376876,
+      "sha256": "f3a9eceb84e5ea948a9a4f2be7a7edfdb3370af36b08c648d387efa03d42831f",
+      "upstream": "Sound/Fire5.wav"
+    },
+    "assets/audio/easyrtp/sounds/Fire6.wav": {
+      "bytes": 131680,
+      "sha256": "bcd3497e4214b0bad313335066b4604d3372f51b2dd35604ca95ad6a9985928a",
+      "upstream": "Sound/Fire6.wav"
+    },
+    "assets/audio/easyrtp/sounds/Fire7.wav": {
+      "bytes": 106022,
+      "sha256": "8290d5f283b2f924bd1a633a5f4ea83a4e328285ca4cf7e3585c5902ecdf5928",
+      "upstream": "Sound/Fire7.wav"
+    },
+    "assets/audio/easyrtp/sounds/Flash1.wav": {
+      "bytes": 51888,
+      "sha256": "9f27187d725d7f96ded60847e9c2399bdedcb5ea1a42942f7e08afe31e0721f6",
+      "upstream": "Sound/Flash1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Flash3.wav": {
+      "bytes": 255038,
+      "sha256": "4f2ab28790a9d99ae2d6c5947140b9844c6f14517f52b07edbb85365a0fcec1b",
+      "upstream": "Sound/Flash3.wav"
+    },
+    "assets/audio/easyrtp/sounds/Fog1.wav": {
+      "bytes": 93562,
+      "sha256": "5fee2f44a3b8cc7ab0a6f9bdba5d32793e6eb5ca1f41be95d9f70bbfbdf06ea8",
+      "upstream": "Sound/Fog1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Glare.wav": {
+      "bytes": 133256,
+      "sha256": "320dd45056808748b168fdfef87c94e4f52b780f04a0776609e38414b13b8104",
+      "upstream": "Sound/Glare.wav"
+    },
+    "assets/audio/easyrtp/sounds/Holy2.wav": {
+      "bytes": 91518,
+      "sha256": "069eed2cf8399c7543a537cbda184a84529b062634201539205df8105546c949",
+      "upstream": "Sound/Holy2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Holy3.wav": {
+      "bytes": 79174,
+      "sha256": "93713fdcbbffa555c3b12340e727796df359f3d56ea67c6acfa015d37f170c6b",
+      "upstream": "Sound/Holy3.wav"
+    },
+    "assets/audio/easyrtp/sounds/Holy5.wav": {
+      "bytes": 83020,
+      "sha256": "1d03518925b15bea9c54783dabb4160c918315894d796bb519d778dc9e3a66e3",
+      "upstream": "Sound/Holy5.wav"
+    },
+    "assets/audio/easyrtp/sounds/Holy6.wav": {
+      "bytes": 352828,
+      "sha256": "c0ed9ebd3fd4e44749a31dd8bcaff0ce855a48ff60fd6b4f8130a50fbc61e65a",
+      "upstream": "Sound/Holy6.wav"
+    },
+    "assets/audio/easyrtp/sounds/Holy7.wav": {
+      "bytes": 65644,
+      "sha256": "4351752e7048836c513fd13f3785d859d6133ed59bca15bcc9c555b243889a4b",
+      "upstream": "Sound/Holy7.wav"
+    },
+    "assets/audio/easyrtp/sounds/Ice1.wav": {
+      "bytes": 417708,
+      "sha256": "22d9934ad5deab936227c72f859764b4c8d35fd3a8eaef415862510f254757b4",
+      "upstream": "Sound/Ice1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Ice2.wav": {
+      "bytes": 72892,
+      "sha256": "7a6de8d3b20eb4f01f19546350803843e612e6dfc15d2a59f330149214f69c40",
+      "upstream": "Sound/Ice2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Ice5.wav": {
+      "bytes": 440364,
+      "sha256": "15e68ddb0657ed855f3f6f8ebbee4354f1cb85070c45b5d5a17707c7ae0c2ada",
+      "upstream": "Sound/Ice5.wav"
+    },
+    "assets/audio/easyrtp/sounds/Ice6.wav": {
+      "bytes": 101318,
+      "sha256": "9d76bd8343646fab2cd809abc1bfd58f7d39154bf1cec4560c0ada1277596cd1",
+      "upstream": "Sound/Ice6.wav"
+    },
+    "assets/audio/easyrtp/sounds/Ice7.wav": {
+      "bytes": 75842,
+      "sha256": "88c97be00ca32c9bc9b828fc691409bff3f5fa0342e7fbdc8065f57e673ada64",
+      "upstream": "Sound/Ice7.wav"
+    },
+    "assets/audio/easyrtp/sounds/Ice9.wav": {
+      "bytes": 75842,
+      "sha256": "9104b7a5132016d91a69b156a5b712bee3091012704697d74aeb298f56ef3f36",
+      "upstream": "Sound/Ice9.wav"
+    },
+    "assets/audio/easyrtp/sounds/Item1.wav": {
+      "bytes": 139460,
+      "sha256": "c575533d0126b335cb0fb178feb83278cc46b65c788a6b4a30455bc305ae93c2",
+      "upstream": "Sound/Item1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Item2.wav": {
+      "bytes": 67348,
+      "sha256": "f89cc0225c47d60b6cb32b37e99acbd4a4ba56c11b23c489f95ca96a9a9c9956",
+      "upstream": "Sound/Item2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Key.wav": {
+      "bytes": 64312,
+      "sha256": "7e0bdfbbadf704612d8bdc9f75748581d4e9ec4ffd02fe45c85050ed8d94b24b",
+      "upstream": "Sound/Key.wav"
+    },
+    "assets/audio/easyrtp/sounds/Knock.wav": {
+      "bytes": 58412,
+      "sha256": "5ac2548a544d8cbfa0731245aad5163fb71e5e1f88552e9e6e811520ff8cbe57",
+      "upstream": "Sound/Knock.wav"
+    },
+    "assets/audio/easyrtp/sounds/Magic1.wav": {
+      "bytes": 25896,
+      "sha256": "d9e6be8ac0d57e29b860f930bcb127369062d3b5156686ff7771971c9e305d46",
+      "upstream": "Sound/Magic1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Magic2.wav": {
+      "bytes": 56358,
+      "sha256": "5a711bba7ab2a0c07f4c7fca12b2a7a4d216304381715b588d5b68de9668df66",
+      "upstream": "Sound/Magic2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Monster1.wav": {
+      "bytes": 817924,
+      "sha256": "c7d0a5181f1e378fdafd6316fd115763a534288a2e48a4e570eadc3909eb9c3b",
+      "upstream": "Sound/Monster1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Move.wav": {
+      "bytes": 64608,
+      "sha256": "92bd8900789fb2312477fbd8ee63dd34518ce62a947ec3ed4c9f1075bb876545",
+      "upstream": "Sound/Move.wav"
+    },
+    "assets/audio/easyrtp/sounds/Poison.wav": {
+      "bytes": 132516,
+      "sha256": "1e31ec31b74b29352f4d007b1aaf91737dedb11da840e045cd730aea5e9b6104",
+      "upstream": "Sound/Poison.wav"
+    },
+    "assets/audio/easyrtp/sounds/Pollen.wav": {
+      "bytes": 176548,
+      "sha256": "7ae63f41f10514b848adb6088bcd8bfdc2f3c3c2313daaa6747a88863ca92191",
+      "upstream": "Sound/Pollen.wav"
+    },
+    "assets/audio/easyrtp/sounds/Raise2.wav": {
+      "bytes": 176548,
+      "sha256": "a91aaaab22d8e97ea67ef9904e5da9975e4de8cd717ad21ba6c27268e8e1789c",
+      "upstream": "Sound/Raise2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Recovery5.wav": {
+      "bytes": 98542,
+      "sha256": "7b1a3d385333a8a2935ff13be67acfc9bd5859d3d33df0e0b112203ce0b9e619",
+      "upstream": "Sound/Recovery5.wav"
+    },
+    "assets/audio/easyrtp/sounds/Recovery7.wav": {
+      "bytes": 89560,
+      "sha256": "40a8ebff8e0c9cce5ea5de5a51de8c0fd31f65f7128e2e657c052c29db160785",
+      "upstream": "Sound/Recovery7.wav"
+    },
+    "assets/audio/easyrtp/sounds/Recovery8.wav": {
+      "bytes": 98324,
+      "sha256": "a7bd32b34aec9ff6fc687d05b318103142bfdd60e7c18245ea1f011893bba9e5",
+      "upstream": "Sound/Recovery8.wav"
+    },
+    "assets/audio/easyrtp/sounds/Sandstorm.wav": {
+      "bytes": 77560,
+      "sha256": "1b68129aba1cb42655a0dad752a891d6871671dc62039d004fcdff9210d7b8c5",
+      "upstream": "Sound/Sandstorm.wav"
+    },
+    "assets/audio/easyrtp/sounds/Shot1.wav": {
+      "bytes": 51500,
+      "sha256": "8362c26484e3300e196e0d4bcde0810b5c5d843316462b39fd6a02314ec71892",
+      "upstream": "Sound/Shot1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Shot2.wav": {
+      "bytes": 35140,
+      "sha256": "7d2b89660fe676bae557e864ea12e9849a2ddc3ae8d56ba7a17460c29b638855",
+      "upstream": "Sound/Shot2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Shot3.wav": {
+      "bytes": 58952,
+      "sha256": "f7766bf3603f3a4a76fab911a5916ba3a34462ea8cece3b717cccb50d7af1806",
+      "upstream": "Sound/Shot3.wav"
+    },
+    "assets/audio/easyrtp/sounds/Silence.wav": {
+      "bytes": 70392,
+      "sha256": "77e65476c267caae3b3e5d9f540cce8acf803801105198e91c27b34d4a67d31d",
+      "upstream": "Sound/Silence.wav"
+    },
+    "assets/audio/easyrtp/sounds/Sleep.wav": {
+      "bytes": 64504,
+      "sha256": "47f7223e727172d521d0da463f1c492496b67dc0a02111199ae4c2fc28441cc6",
+      "upstream": "Sound/Sleep.wav"
+    },
+    "assets/audio/easyrtp/sounds/Song.wav": {
+      "bytes": 83936,
+      "sha256": "6a5e4d9d1da8111fc368fde3f01d729d29a3af41a335875c29285c32cf2779ec",
+      "upstream": "Sound/Song.wav"
+    },
+    "assets/audio/easyrtp/sounds/Teleport2.wav": {
+      "bytes": 181160,
+      "sha256": "5f21d9bdb9b755f1f1f776c12fd17db47855f9fecd5ee9ba8e330345f4748841",
+      "upstream": "Sound/Teleport2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Wave1.wav": {
+      "bytes": 94088,
+      "sha256": "f5175e8e814b66a40c2f8bcb39f348e26c2565a9a145f69d1689ca143186aa2b",
+      "upstream": "Sound/Wave1.wav"
+    },
+    "assets/audio/easyrtp/sounds/Wave2.wav": {
+      "bytes": 176548,
+      "sha256": "7c2d3f528a0b1d21e7048d0e04f9e1860b7b6ff36c5f355fe7aae58011508de0",
+      "upstream": "Sound/Wave2.wav"
+    },
+    "assets/audio/easyrtp/sounds/Wind8.wav": {
+      "bytes": 121572,
+      "sha256": "829aa2dad420c9b207abf76957a7e8be83fc2431607cd39e2a9a1185ed50c4dd",
+      "upstream": "Sound/Wind8.wav"
+    }
+  },
+  "generated_by": "tools/easyrtp_prepare.py",
+  "skipped": [
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/Battle 1.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/Boss 3.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/Castle 1.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/Church.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/Dungeon 1.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/Ending 2.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/Field 1.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/Game Over 1.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JDoubt.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JEnd of Battle 1.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JEnd of Battle 2.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JEnd of Battle 3.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JEnd of Battle 4.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JFanfare 1.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JFanfare 2.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JFanfare 3.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JFanfare 4.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JFanfare 5.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JFanfare 6.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JInn 1.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JInn 2.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JItem.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JJoke 1.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JJoke 2.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/JMystery.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/Mystery 1.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/Opening 2.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/Sorrow.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/Town 1.mid"
+    },
+    {
+      "reason": "MIDI; Godot cannot play it natively",
+      "upstream": "Music/Vehicle 1.mid"
+    }
+  ],
+  "upstream_commit": "993d88cbc78c658d348bbfa74a3b424d393d27e5",
+  "upstream_repo": "EasyRPG/RTP"
+}
