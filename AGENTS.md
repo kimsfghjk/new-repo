@@ -29,10 +29,17 @@ res://
     fonts/    # 폰트 (LFS)
     models/   # 3D 모델 (LFS)
   tests/      # test_*.gd — 하위 폴더는 스캔되지 않음
-  addons/     # 서드파티 플러그인 (수정 금지)
+  addons/     # Godot 에디터 플러그인 (수정 금지, 버전 고정 커밋)
+  third_party/ # 플러그인 형태가 아닌 외부 코드/프레임워크 (수정 금지)
+  tools/      # 팀 공용 스크립트 (PowerShell)
+  docs/       # 문서
 ```
 
 새 최상위 폴더를 추가하기 전에 팀에 공유합니다.
+- **`addons/`·`third_party/`는 손으로 고치지 않습니다.** 갱신은 원본을 통째로 교체하고 `third_party/README.md`의 핀 표를 갱신하는 방식으로만 합니다.
+- `third_party/gbm2k`는 원본 절대 경로(`res://Scripts/` 등)를 `res://third_party/gbm2k/...`로 재작성해 둔 상태입니다. 다시 받을 때도 같은 재작성이 필요합니다(`third_party/README.md` 4절).
+- 부득이하게 내부를 고쳐야 한다면 "우리가 포크했다"는 뜻이므로 PR 본문에 사유를 적습니다.
+
 
 ## 3. 코드 스타일 (Godot 공식 GDScript 스타일 가이드)
 

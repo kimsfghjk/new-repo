@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://dtegylvkm78fs"]
+
+[ext_resource type="Script" uid="uid://bqgrpwammnvjs" path="res://third_party/gbm2k/Scripts/Pawns/Characters/npc.gd" id="1_7fu36"]
+[ext_resource type="Texture2D" uid="uid://n4h41o7d7rbs" path="res://third_party/gbm2k/Graphics/Pawns/actor_man.png" id="2_jpb34"]
+[ext_resource type="Script" uid="uid://l4teq1kjwlso" path="res://third_party/gbm2k/Scripts/Pawns/Characters/character_skin.gd" id="3_1wsot"]
+[ext_resource type="AnimationLibrary" uid="uid://b3y87y7fcp23i" path="res://third_party/gbm2k/Resources/Animations/chara_anim.res" id="4_qjmgd"]
+[ext_resource type="AnimationNodeBlendTree" uid="uid://c050x5reelfn" path="res://third_party/gbm2k/Resources/Animations/chara_animtree.tres" id="5_o87oo"]
+
+[node name="NPC" type="Node2D" unique_id=1062147192]
+script = ExtResource("1_7fu36")
+
+[node name="Skin" type="Sprite2D" parent="." unique_id=189614415]
+modulate = Color(0.7989707, 0, 0.2927908, 1)
+texture = ExtResource("2_jpb34")
+offset = Vector2(0, -8)
+hframes = 3
+vframes = 4
+frame = 7
+script = ExtResource("3_1wsot")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Skin" unique_id=1049950237]
+root_node = NodePath("../..")
+libraries/ = ExtResource("4_qjmgd")
+autoplay = &"idle_down"
+
+[node name="AnimationTree" type="AnimationTree" parent="Skin" unique_id=1288367612]
+root_node = NodePath("../..")
+tree_root = ExtResource("5_o87oo")
+anim_player = NodePath("../AnimationPlayer")
+parameters/StateMachine/Idle/blend_position = Vector2(0, 1)
+parameters/StateMachine/Walk0/blend_position = Vector2(0, 1)
+parameters/StateMachine/Walk1/blend_position = Vector2(0, 1)
+parameters/TimeScale/scale = 1.0

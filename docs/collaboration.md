@@ -167,6 +167,25 @@ GitHub Actions 워크플로도 포함돼 있습니다: **`.github/workflows/ci.y
 - 갱신은 릴리스 zip 교체 + 버전 고정 커밋(`chore: bump godot-ai to 4.x.y`)으로만 합니다. **손으로 수정하지 않습니다.**
 - 대안: `.gitignore` 에 넣고 각자 설치 → 버전 드리프트 위험이 큽니다.
 
+## 부록 D. 설치된 서드파티 코드 (쯔꾸르/RPG 스택)
+
+`third_party/README.md`에 핀(버전/커밋)·라이선스·경로 재작성 내역을 표로 정리해 두었습니다. 요약:
+
+| addon (`addons/`) | 용도 | 핀 |
+|---|---|---|
+| `dialogue_manager` | 대화/분기 스크립트 (DialogueManager 오토로드) | nathanhoad v4.1.0 |
+| `gloot` | 인벤토리 (Inventory/InventoryItem 리소스 + UI 컨트롤) | peter-kish v3.0.2 |
+| `quest_system` | 퀘스트 (QuestSystem 오토로드) | shomykohai 2.0.2.4_4 |
+| `save_system` | 세이브/로드 (SaveSystem 오토로드, **부팅 순서 1번**) | AdamKormos 0cd7aae7 |
+
+| `third_party/` | 용도 | 핀 |
+|---|---|---|
+| `gbm2k/` | RPG Maker 2003식 그리드 이동 + NPC 상호작용 + 밟으면 발동하는 이벤트 셀 + A* | Oplexitie 3cf0fe97 |
+
+- 오토로드는 `project.godot`에 **명시적으로** 기록해 두었습니다(플러그인이 자동 등록하지만 에디터 저장 시점에만 반영되므로 CI/신규 클론에서 순서가 흔들리는 걸 방지).
+- ⚠️ GBM2K의 `Graphics/`는 **OpenRTP**(RPG Maker RTP 무료 대체 리소스)입니다. 상용 배포 전 라이선스를 확인하거나 자체 아트로 교체하세요. **RPG Maker RTP 원본 리소스는 사용 금지**입니다.
+- 갱신은 폴더 통째 교체 + `third_party/README.md` 핀 표 갱신 + `tools/check-project.ps1` 통과 확인 순서로 합니다.
+
 ## 부록 C. 원격 저장소 운영 (GitHub)
 
 저장소: <https://github.com/kimsfghjk/new-repo> (기본 브랜치 `main`)
