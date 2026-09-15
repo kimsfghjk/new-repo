@@ -104,6 +104,8 @@ GitLab을 쓰면 `git lfs lock <file>` 을 쓸 수 있습니다(GitHub LFS는 �
 ```
 
 `Godot --headless --path . --editor --quit` 로 프로젝트를 열어 임포트/스크립트 파싱 오류를 찾습니다.
+**판정 규칙**: `addons/`·`third_party/`(벤더링) 프레임에서 발생한 SCRIPT ERROR는 **경고**, 파싱 오류·로드 실패·우리 코드의 오류는 **실패**입니다.
+기존 로그를 재분류하려면 `-LogFile <godot.log>` 옵션을 씁니다. 배경은 `third_party/README.md` 5절을 보세요.
 **플러그인은 헤드리스 실행에서 MCP 서버를 자동 비활성화**하므로(`MCP | plugin disabled in headless mode`, 포트 충돌 없음) 에디터를 켜 둔 상태에서도 CI에서도 그대로 쓸 수 있습니다.
 헤드리스에서도 서버를 띄우고 싶다면 환경변수 `GODOT_AI_ALLOW_HEADLESS=1` 을 설정합니다.
 

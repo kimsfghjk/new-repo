@@ -64,3 +64,12 @@ res://Graphics/   -> res://third_party/gbm2k/Graphics/
 3. GBM2K은 위 4개 경로 재작성을 다시 수행합니다.
 4. 이 파일의 표(핀 값)를 갱신하고, 커밋 메시지에 `chore(vendor): bump <addon> to <version>` 형식으로 남깁니다.
 5. `powershell -ExecutionPolicy Bypass -File .\tools\check-project.ps1` 로 프로젝트가 정상 로드되는지 확인합니다.
+
+## 5. 알려진 이슈 (벤더링 코드)
+
+- **dialogue_manager 4.1.0**: 헤드리스 에디터에서 `interface/editor/code_font_size` 설정이 없으면
+  `utilities/theme_values.gd:51` 에서 `SCRIPT ERROR: Trying to assign value of type 'Nil' ...` 를 기록합니다.
+  사용자 에디터 설정이 있는 로컬에서는 나타나지 않고, 게임 동작에도 영향이 없습니다.
+  **패치하지 않습니다**(업데이트 때마다 재적용해야 하므로). 대신 `tools/check-project.ps1` 과 CI가
+  `addons/`·`third_party/` 프레임의 SCRIPT ERROR 를 **경고**로 분류하고, 파싱 오류·로드 실패·우리 코드의 오류는 **실패**로 처리합니다.
+  기존 로그 재분류: `.\tools\check-project.ps1 -LogFile <godot.log>`
