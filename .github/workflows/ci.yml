@@ -46,6 +46,13 @@ jobs:
 
       # The Godot AI plugin disables its MCP server in headless launches, so the
       # check below never competes with an editor (or CI) for ports 8000/9500.
+      # Classification policy (mirrors tools/check-project.ps1):
+      #   HARD   -> parse errors, load failures, and script errors in OUR code: fail
+      #   VENDOR -> script errors whose "at:" frame is under addons/ or third_party/: warn only
+      # Vendored addons can log editor-only errors on a runner with no user editor
+      # settings (dialogue_manager reads "interface/editor/code_font_size", unset in a
+      # fresh headless run). The game is unaffected and we do not patch vendored code,
+      # so it must not fail the gate. Parse/load failures still always fail.
       - name: Headless import + script load check
         run: |
           set -euo pipefail
@@ -54,16 +61,41 @@ jobs:
           STATUS=$?
           set -e
           cat "$RUNNER_TEMP/godot.log"
+
+          awk '
+            /MCP \| plugin disabled in headless mode/ { next }
+            /SCRIPT ERROR/ {
+              pending = $0
+              frame = ""
+              for (k = 0; k < 3; k++) {
+                if ((getline nxt) <= 0) break
+                if (nxt ~ /^[[:space:]]*at: /) { frame = nxt; break }
+              }
+              vendored = (frame != "" && frame ~ /(addons|third_party)\//) && (pending !~ /Parse Error/)
+              if (vendored) { print "VENDOR\t" pending "  [" frame "]" }
+              else { print "HARD\t" pending "  [" frame "]" }
+              next
+            }
+            /Parse Error|ERROR:|Failed to load|Cannot open file|Unable to load/ { print "HARD\t" $0; next }
+          ' "$RUNNER_TEMP/godot.log" > "$RUNNER_TEMP/findings.txt"
+
+          HARD=$(grep -c '^HARD' "$RUNNER_TEMP/findings.txt" || true)
+          VENDOR=$(grep -c '^VENDOR' "$RUNNER_TEMP/findings.txt" || true)
+          echo "hard=$HARD vendor=$VENDOR"
+          sed 's/^/  /' "$RUNNER_TEMP/findings.txt"
+
           if [ "$STATUS" -ne 0 ]; then
             echo "::error::Godot exited with code $STATUS"
             exit 1
           fi
-          if grep -E 'SCRIPT ERROR|Parse Error|ERROR:|Failed to load|Cannot open file|Unable to load' "$RUNNER_TEMP/godot.log" \
-              | grep -v 'MCP | plugin disabled in headless mode'; then
-            echo "::error::Godot reported load/parse errors (see log above)"
+          if [ "$HARD" -gt 0 ]; then
+            echo "::error::Godot reported load/parse errors in project code (see above)"
             exit 1
           fi
-          echo "PASS - project imports and all scripts parse cleanly."
+          if [ "$VENDOR" -gt 0 ]; then
+            echo "::warning::$VENDOR script error(s) inside vendored addons were ignored (see third_party/README.md)"
+          fi
+          echo "PASS - project imports; no load or parse errors in project code."
 
       - name: Guard against forbidden tracked files
         run: |
