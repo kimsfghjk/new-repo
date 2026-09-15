@@ -113,6 +113,14 @@ func test_chipset_tilesets_are_wired_for_gbm2k() -> void:
 		)
 
 
+func test_pixel_art_filter_is_nearest() -> void:
+	# Every asset in this bundle is 16px pixel art. With the default (Linear)
+	# filter Godot blurs them, so the project-wide filter is pinned here.
+	var filter: int = ProjectSettings.get_setting(
+		"rendering/textures/canvas_textures/default_texture_filter", -1)
+	assert_eq(filter, 0, "canvas default_texture_filter must be 0 (Nearest)")
+
+
 func test_character_cells_are_gbm2k_sized() -> void:
 	var directory := DirAccess.open("res://assets/art/easyrtp/characters")
 	assert_true(directory != null, "characters directory must exist")
